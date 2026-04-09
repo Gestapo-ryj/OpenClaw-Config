@@ -1,0 +1,14 @@
+.DS_Store
+
+# Local OpenClaw runtime state
+.openclaw/workspace-state.json
+
+# Python cache/artifacts
+__pycache__/
+*.pyc
+
+# Node/tooling artifacts
+node_modules/
+
+# Logs
+*.log

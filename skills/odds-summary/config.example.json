@@ -1,0 +1,82 @@
+{
+  "skill": {
+    "name": "odds-summary",
+    "version": "1.0.0",
+    "description": "体育比赛赔率搜索和分析技能"
+  },
+  
+  "dataSources": {
+    "primary": "web_search",
+    "fallbacks": [
+      "odds_portal",
+      "flashscore",
+      "bet365"
+    ],
+    "updateInterval": 300,
+    "cacheDuration": 600
+  },
+  
+  "bookmakers": {
+    "default": ["威廉希尔", "Bet365", "澳门彩票", "10Bet"],
+    "preferredOrder": ["Bet365", "威廉希尔", "澳门彩票"]
+  },
+  
+  "analysis": {
+    "calculateImpliedProbability": true,
+    "identifyValueBets": true,
+    "trackOddsMovement": true,
+    "minValueThreshold": 0.05
+  },
+  
+  "output": {
+    "defaultFormat": "简洁",
+    "availableFormats": ["简洁", "详细", "专业"],
+    "includeDisclaimer": true,
+    "showUpdateTime": true,
+    "maxBookmakers": 5
+  },
+  
+  "sports": {
+    "supported": ["足球", "篮球", "网球", "电竞", "棒球"],
+    "default": "足球",
+    "leagueSpecificSettings": {
+      "足球": {
+        "mainMarkets": ["胜平负", "让球", "大小球"],
+        "timeFormat": "90分钟"
+      },
+      "篮球": {
+        "mainMarkets": ["胜负", "让分", "大小分"],
+        "timeFormat": "48分钟"
+      }
+    }
+  },
+  
+  "safety": {
+    "requireAgeWarning": true,
+    "defaultDisclaimer": "本赔率分析仅供参考，不构成投注建议。赌博有风险，请理性参与，遵守当地法律法规。",
+    "riskLevel": "中等",
+    "complianceCheck": true
+  },
+  
+  "search": {
+    "keywords": {
+      "足球": ["赔率", "盘口", "水位", "欧赔", "亚盘"],
+      "篮球": ["赔率", "让分", "大小分", "NBA赔率"],
+      "通用": ["odds", "betting", "博彩", "投注"]
+    },
+    "language": "zh-CN",
+    "region": "CN"
+  },
+  
+  "notifications": {
+    "enabled": false,
+    "alertOnSignificantMovement": true,
+    "movementThreshold": 0.2
+  },
+  
+  "debug": {
+    "logLevel": "info",
+    "saveRawData": false,
+    "testMode": false
+  }
+}
