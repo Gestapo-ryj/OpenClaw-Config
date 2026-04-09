@@ -1,14 +1,94 @@
-.DS_Store
+# OpenClaw Workspace Git Ignore File
 
-# Local OpenClaw runtime state
-.openclaw/workspace-state.json
-
-# Python cache/artifacts
-__pycache__/
-*.pyc
-
-# Node/tooling artifacts
+# Node.js
 node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
 
-# Logs
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OpenClaw specific
+.openclaw/cache/
+.openclaw/tmp/
+.openclaw/logs/
+.openclaw/sessions/
+
+# Memory files (consider what to include/exclude)
+# memory/*.md  # Uncomment to ignore all memory files
+# !memory/README.md  # But keep README if exists
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Log files
 *.log
+logs/
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Build outputs
+dist/
+build/
+out/
+
+# Documentation
+_site/
+.sass-cache/
+.jekyll-cache/
+
+# Large data files
+*.csv
+*.jsonl
+*.dat
+*.data
+
+# Sensitive files
+secrets.*
+credentials.*
+config.local.*
+private.*
+
+# Analysis output files (optional - you might want to track these)
+# *.analysis.md
+# *.report.md
+# *.summary.md
+
+# Backup files from memory system
+memory/backup/  # If you have a backup directory
+
+# Temporary analysis scripts (generated during sessions)
+temp_*.js
+test_*.js  # Except those in skills directory
+
+# Session files
+session_*.json
+state_*.json
