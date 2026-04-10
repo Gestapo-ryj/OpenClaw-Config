@@ -1,234 +1,932 @@
 // 分析今天比赛赔率的脚本
-const OddsAnalyzer = require('/Users/rongyingjie/.openclaw/workspace/skills/odds-analyzer/scripts/analyze-odds.js');
+const fs = require('fs');
 
-// 从网页获取的赔率数据
-const todayOddsData = `Thu, 9 Apr 2026
-22:00
-Indian S League
-2.60 +2.0%
-2.75 -6.8%
-2.55 +6.3%
+// 从web_fetch获取的数据
+const oddsData = `Fri, 10 Apr 2026
 
-Fri, 10 Apr 2026
-00:00
-Saudi League
-5.80 -10.8%
-4.10 -4.7%
-1.42 +3.6%
-
-00:45
-UE Conference
-1.95 -1.0%
-3.05
-3.60 +2.9%
-
-02:00
-Saudi League
-1.87 -6.5%
-3.60 +2.9%
-3.20 +8.5%
-
-03:00
-UE Conference
-2.25 -8.2%
-3.10
-2.80 +9.8%
-
-03:00
-UE Conference
-2.00 +1.5%
-3.20 -3.0%
-3.20
-
-03:00
-UE Europe
-2.00 -2.4%
-3.00 -3.2%
-3.40 +6.2%
-
-03:00
-UE Europe
-3.40 +21.4%
-3.10
-1.95 -13.3%
-
-03:00
-UE Conference
-1.63 -4.1%
-3.50 +6.1%
-4.50 +4.7%
-
-03:00
-UE Europe
-2.15 -2.3%
-3.00 -1.6%
-3.10 +5.1%
-
-06:00
+ 08:00
 Libertadores Cup
-1.70 -1.2%
-3.10
-4.80 +6.7%
+2.90 +5.5%
+2.50 -7.4%
+2.65 +3.9%
 
-06:00
+ 08:30
 Sudamericana Cup
-2.05 -2.4%
-3.10
-3.20 +3.2%
+3.00 -6.3%
+2.80 -3.4%
+2.30 +7.0%
 
-08:00
+ 10:00
 Libertadores Cup
-2.85 +3.6%
-2.65 -1.9%
-2.55
-
-08:30
-Sudamericana Cup
-3.30 +3.1%
-2.90
-2.10 -2.3%
-
-10:00
-Libertadores Cup
-2.03 +3.0%
-2.90
+2.05 +4.1%
+2.85 -1.7%
 3.50 -5.4%
 
-17:35
+ 17:35
 A League
-2.75
+2.70 -1.8%
 3.30
 2.20
 
+18:30
+Indian FB League
+2.20 +2.3%
+3.05 +1.7%
+2.75 -3.5%
+
+ 19:30
+Singapore Premier League
+2.25
+3.60
+2.35
+
 19:30
 Indian S League
-1.82
+1.80 -1.1%
 3.10
-3.60
+3.70 +2.8%
 
 22:00
 Indian S League
 1.48
+3.60 -2.7%
+5.20 +4.0%
+
+ Sat, 11 Apr 2026
+
+ 00:30
+German League Div 2
+1.95
+3.40 -2.9%
+3.20 +3.2%
+
+ 00:30
+German League Div 2
+2.80 -5.1%
+3.40
+2.10 +3.4%
+
+ 01:00
+French League
+3.30 -2.9%
+3.40 -2.9%
+1.92 +1.1%
+
+ 02:00
+Dutch League
+1.17
+6.00
+9.50
+
+ 02:00
+French League Div 2
+2.45 -3.9%
+2.95
+2.65 +3.9%
+
+02:00
+French League Div 2
+4.10 +2.5%
+3.30 +3.1%
+1.75 -1.1%
+
+02:00
+French League Div 2
+2.40 -5.9%
+3.40 -2.9%
+2.45 +8.9%
+
+02:00
+French League Div 2
+1.65
+3.50
+4.30
+
+02:00
+French League Div 2
+2.15
+2.90
+3.20
+
+02:00
+Dutch League Div 2
+2.55
+3.20
+2.40
+
+02:00
+Dutch League Div 2
+2.50
+3.30
+2.40
+
+02:00
+Dutch League Div 2
+2.55 +2.0%
+3.60
+2.20 -2.2%
+
+ 02:00
+Dutch League Div 2
+1.70
+3.80
 3.70
-5.00`;
 
-// 创建分析器实例
-const analyzer = new OddsAnalyzer({
-  threshold: 5, // 变化阈值5%
-  timeRange: 'all', // 分析所有时间
-  outputDetail: 'full', // 完整输出
-  excludeWomen: true // 排除女足比赛
-});
+ 02:30
+German League
+3.05 +1.7%
+3.40
+2.00 -1.5%
 
-console.log('=== 2026年4月9日-10日比赛赔率分析 ===\n');
+ 02:30
+Spanish League Div 2
+2.10 +6.6%
+2.90 -6.5%
+3.30 -2.9%
 
-// 分析赔率数据并生成报告
-const report = analyzer.quickAnalyze(todayOddsData);
+ 02:30
+Italian League Div 2
+2.25 -4.3%
+3.10 +3.3%
+2.80 +1.8%
 
-console.log(report);
+ 02:45
+Italian League
+1.30
+4.50 +2.3%
+9.00
 
-// 特别关注变化较大的比赛
-console.log('\n=== 重点关注比赛（变化超过10%）===');
-const significantMatches = analysis.matches.filter(match => 
-  match.odds.some(odd => Math.abs(odd.change) >= 10)
-);
+ 03:00
+English Premier
+1.77 -1.7%
+3.40
+3.70 -2.6%
 
-if (significantMatches.length > 0) {
-  significantMatches.forEach((match, index) => {
-    console.log(`\n${index + 1}. ${match.time} ${match.league}`);
-    match.odds.forEach((odd, oddIndex) => {
-      const option = oddIndex === 0 ? '主胜' : oddIndex === 1 ? '平局' : '客胜';
-      console.log(`   ${option}: ${odd.odds} (${odd.change > 0 ? '+' : ''}${odd.change}%)`);
-    });
-    
-    // 找出最大变化
-    const maxChange = Math.max(...match.odds.map(o => Math.abs(o.change)));
-    const maxChangeOdd = match.odds.find(o => Math.abs(o.change) === maxChange);
-    const maxChangeOption = match.odds.indexOf(maxChangeOdd) === 0 ? '主胜' : 
-                          match.odds.indexOf(maxChangeOdd) === 1 ? '平局' : '客胜';
-    
-    console.log(`   📈 最大变化: ${maxChangeOption} ${maxChangeOdd.change > 0 ? '+' : ''}${maxChangeOdd.change}%`);
-  });
-} else {
-  console.log('没有发现变化超过10%的比赛');
-}
+ 03:00
+English League Champ
+2.15
+3.10
+2.95 -1.7%
 
-// 分析投注机会
-console.log('\n=== 潜在投注机会分析 ===');
+ 03:00
+Spanish League
+1.27 +1.6%
+5.20
+7.00 -22.2%
 
-// 1. 赔率大幅下降的比赛（市场看好）
-const droppingOddsMatches = analysis.matches.filter(match =>
-  match.odds.some(odd => odd.change <= -8)
-);
+ 03:05
+French League
+1.23 +0.8%
+5.20
+10.00 -9.1%
 
-if (droppingOddsMatches.length > 0) {
-  console.log('\n1. 市场看好的比赛（赔率大幅下降）：');
-  droppingOddsMatches.forEach((match, index) => {
-    const droppingOdds = match.odds.filter(odd => odd.change <= -8);
-    droppingOdds.forEach(odd => {
-      const option = match.odds.indexOf(odd) === 0 ? '主胜' : 
-                    match.odds.indexOf(odd) === 1 ? '平局' : '客胜';
-      console.log(`   - ${match.time} ${match.league}: ${option} ${odd.odds} (${odd.change}%)`);
-    });
-  });
-}
+ 08:00
+Chilean League
+1.95
+3.30
+3.30
 
-// 2. 赔率大幅上升的比赛（可能被低估）
-const risingOddsMatches = analysis.matches.filter(match =>
-  match.odds.some(odd => odd.change >= 8)
-);
+08:00
+Argentine League
+1.67 +2.5%
+3.00 -6.3%
+5.20
 
-if (risingOddsMatches.length > 0) {
-  console.log('\n2. 可能被低估的比赛（赔率大幅上升）：');
-  risingOddsMatches.forEach((match, index) => {
-    const risingOdds = match.odds.filter(odd => odd.change >= 8);
-    risingOdds.forEach(odd => {
-      const option = match.odds.indexOf(odd) === 0 ? '主胜' : 
-                    match.odds.indexOf(odd) === 1 ? '平局' : '客胜';
-      console.log(`   - ${match.time} ${match.league}: ${option} ${odd.odds} (${odd.change}%)`);
-    });
-  });
-}
+09:00
+Mexican League
+2.25
+3.20
+2.75
 
-// 3. 平局赔率异常的比赛
-const drawOpportunities = analysis.matches.filter(match => {
-  const drawOdd = match.odds[1]; // 平局赔率
-  return drawOdd && drawOdd.odds >= 3.0 && Math.abs(drawOdd.change) <= 5;
-});
+11:06
+Mexican League
+1.77 +1.1%
+3.40
+3.80 -2.6%
 
-if (drawOpportunities.length > 0) {
-  console.log('\n3. 平局机会较高的比赛：');
-  drawOpportunities.forEach((match, index) => {
-    const drawOdd = match.odds[1];
-    console.log(`   - ${match.time} ${match.league}: 平局 ${drawOdd.odds} (${drawOdd.change}%)`);
-  });
-}
+ 12:00
+J League 100 Year Vision
+2.45
+2.90
+2.55
 
-// 4. 高风险高回报比赛
-const highRiskMatches = analysis.matches.filter(match => {
-  const maxOdds = Math.max(...match.odds.map(o => o.odds));
-  return maxOdds >= 4.0;
-});
+ 13:00
+A League
+1.97
+3.60
+2.95
 
-if (highRiskMatches.length > 0) {
-  console.log('\n4. 高风险高回报比赛：');
-  highRiskMatches.forEach((match, index) => {
-    const maxOdd = Math.max(...match.odds.map(o => o.odds));
-    const maxOddIndex = match.odds.findIndex(o => o.odds === maxOdd);
-    const option = maxOddIndex === 0 ? '主胜' : maxOddIndex === 1 ? '平局' : '客胜';
-    console.log(`   - ${match.time} ${match.league}: ${option} ${maxOdd}`);
-  });
-}
+ 13:00
+J League 100 Year Vision
+2.35
+2.95
+2.65
 
-console.log('\n=== 投注建议 ===');
-console.log('1. 关注变化超过10%的比赛，市场预期变化明显');
-console.log('2. 赔率大幅下降的选项通常被市场看好');
-console.log('3. 赔率大幅上升的选项可能存在价值投注机会');
-console.log('4. 平局赔率高于3.0且变化不大的比赛值得关注');
-console.log('5. 高风险高回报比赛适合小注尝试');
+ 13:00
+J League 100 Year Vision
+1.53
+3.50
+5.00 +4.2%
 
-console.log('\n=== 风险提示 ===');
-console.log('1. 赔率变化受多种因素影响，需结合球队基本面分析');
-console.log('2. 大幅变化可能是市场过度反应');
-console.log('3. 投注前请确认最新赔率和球队信息');
-console.log('4. 理性投注，控制风险');
+ 13:00
+J League 100 Year Vision
+2.70 -1.8%
+2.85 +1.8%
+2.35
+
+ 14:00
+J League 100 Year Vision
+1.87
+3.05 -1.6%
+3.50
+
+ 14:00
+J League 100 Year Vision
+2.90 +1.8%
+3.10
+2.10
+
+ 15:00
+A League
+2.05 +2.5%
+3.70
+2.75 -3.5%
+
+ 15:00
+J League 100 Year Vision
+1.85 +1.6%
+3.20 -3.0%
+3.40
+
+ 15:00
+J League 100 Year Vision
+2.20
+3.05 -1.6%
+2.75
+
+ 17:35
+A League
+2.40
+3.50
+2.40
+
+19:00
+German League Div 2
+2.15 +4.9%
+3.10 -3.1%
+3.00 -3.2%
+
+19:00
+German League Div 2
+2.00 +2.6%
+3.50
+3.05
+
+ 19:00
+German League Div 2
+1.67 -5.6%
+3.80 +2.7%
+3.80 +8.6%
+
+ 19:30
+English Premier
+1.40 +2.2%
+4.20 -4.5%
+6.00 -7.7%
+
+19:30
+English League Champ
+1.10
+8.50
+12.00
+
+ 19:30
+English League Champ
+2.70 -1.8%
+3.40
+2.20 +2.3%
+
+ 19:30
+English League Champ
+2.15 -2.3%
+3.10
+2.95 +3.5%
+
+19:30
+English League One
+1.70
+3.80 +2.7%
+3.70 -2.6%
+
+19:30
+English League One
+1.50 +3.4%
+3.70 -2.6%
+5.50 -8.3%
+
+19:30
+English League One
+1.50
+3.90
+4.80
+
+ 20:00
+Norwegian League
+1.50 -2.0%
+3.80 -2.6%
+5.20 +8.3%
+
+ 20:00
+Spanish League
+1.70
+3.40
+4.20
+
+20:00
+French League Div 2
+3.20
+2.95
+2.10
+
+20:00
+French League Div 2
+2.10
+2.95
+3.20
+
+ 21:00
+Italian League
+1.85 +1.6%
+3.10
+4.00
+
+ 21:00
+Italian League
+2.10 +2.4%
+2.85 -1.7%
+3.40
+
+21:00
+Swedish League
+1.30 -3.7%
+4.50 +2.3%
+7.50 +15.4%
+
+21:00
+Swedish League
+2.60
+3.20
+2.35
+
+21:00
+Swedish League
+2.40 -4.0%
+2.85 +3.6%
+2.80
+
+21:00
+Italian League Div 2
+4.30
+3.60
+1.63
+
+21:00
+Italian League Div 2
+2.20 -4.3%
+2.95
+3.05 +7.0%
+
+ 21:00
+Italian League Div 2
+2.85
+2.80
+2.40
+
+ 21:00
+Italian League Div 2
+2.15
+3.00
+3.10
+
+ 21:30
+German League
+2.40
+3.30
+2.50
+
+ 21:30
+German League
+2.80 -5.1%
+3.20
+2.20 +4.8%
+
+ 21:30
+German League
+1.95 +1.6%
+3.60
+3.10
+
+ 21:30
+German League
+1.45 -2.0%
+4.20 +2.4%
+5.20 +4.0%
+
+ 22:00
+English Premier
+2.05 -2.4%
+3.10
+3.20 +3.2%
+
+ 22:00
+English Premier
+4.10
+3.70
+1.65
+
+22:00
+English League Champ
+2.30
+3.00
+2.80
+
+22:00
+English League Champ
+2.00
+3.30
+3.10
+
+22:00
+English League Champ
+2.05
+3.10
+3.20
+
+22:00
+English League Champ
+1.50
+3.80
+5.20
+
+ 22:00
+English League Champ
+1.80 +4.7%
+3.60 -2.7%
+3.60 -2.7%
+
+ 22:00
+English League Champ
+1.70 -2.9%
+3.40 -2.9%
+4.10 +7.9%
+
+22:00
+English League Champ
+2.45
+3.00
+2.60
+
+ 22:00
+Norwegian League
+1.28 -5.2%
+4.80 +9.1%
+8.50 +21.4%
+
+22:00
+English League One
+1.85
+3.40
+3.50
+
+22:00
+English League One
+1.77
+3.60
+3.60
+
+22:00
+English League One
+1.75 -1.1%
+3.30 +3.1%
+4.10
+
+22:00
+English League One
+2.15
+3.10
+3.00
+
+22:00
+English League One
+2.15
+2.80
+3.30
+
+22:00
+English League One
+2.30
+3.10
+2.70
+
+22:00
+English League One
+2.30
+3.30
+2.60
+
+ 22:15
+Spanish League
+2.30
+3.05
+2.75
+
+22:15
+Spanish League Div 2
+2.10 +5.0%
+2.90 -6.5%
+3.30 -2.9%
+
+ 22:15
+Spanish League Div 2
+2.10
+2.85
+3.40
+
+ 22:30
+Dutch League
+1.60
+3.40
+5.00
+
+ 22:30
+Dutch League Div 2
+2.75 +1.9%
+3.60
+2.10
+
+ 23:15
+Italian League Div 2
+2.50
+2.95 +1.7%
+2.60 -1.9%
+
+ Sun, 12 Apr 2026
+
+ 00:00
+Italian League
+1.37
+4.20
+7.00
+
+ 00:00
+Norwegian League
+3.20 +3.2%
+3.80
+1.82 -1.6%
+
+00:00
+Saudi League
+4.70
+3.80
+1.55
+
+00:00
+Saudi League
+1.87
+3.40
+3.40
+
+00:05
+Saudi League
+2.35 -9.6%
+3.10
+2.65 +10.4%
+
+ 00:30
+English Premier
+1.58 +9.0%
+3.80 -9.5%
+4.40 -12.0%
+
+ 00:30
+German League
+7.50
+4.80 +2.1%
+1.30
+
+ 00:30
+Spanish League
+1.25 +4.2%
+5.20 -13.3%
+8.00 -11.1%
+
+ 00:30
+Spanish League Div 2
+2.25
+2.95
+2.95
+
+ 00:45
+Dutch League
+3.50
+3.80
+1.80
+
+ 01:00
+French League
+2.03
+3.05
+3.30
+
+ 01:00
+US Soccer League
+2.03 -1.0%
+3.30 +3.1%
+3.05
+
+ 02:00
+Dutch League
+1.82
+3.70
+3.40
+
+02:00
+Saudi League
+12.00
+7.00
+1.12
+
+ 02:30
+US Soccer League
+2.50
+3.20
+2.45
+
+ 02:30
+US Soccer League
+2.05 -6.8%
+3.40 +3.0%
+2.95 +7.3%
+
+ 02:30
+German League Div 2
+2.50
+3.40
+2.35
+
+ 02:45
+Italian League
+2.85 -1.7%
+3.10
+2.20
+
+ 03:00
+Dutch League
+4.80
+3.90
+1.53
+
+ 03:00
+Spanish League
+2.90 -6.5%
+2.95 +1.7%
+2.30 +4.5%
+
+ 03:05
+French League
+1.35
+4.40 +2.3%
+7.00 -6.7%
+
+ 04:30
+US Soccer League
+4.20 +2.4%
+3.70
+1.63 -1.2%
+
+ 07:30
+US Soccer League
+1.45
+3.80
+6.00
+
+ 07:30
+US Soccer League
+1.63
+3.70
+4.20
+
+ 07:30
+US Soccer League
+2.20
+2.90
+3.10
+
+ 07:30
+US Soccer League
+2.00 +2.6%
+3.10
+3.30 -5.7%
+
+ 08:30
+US Soccer League
+2.00
+3.40
+3.05
+
+ 08:30
+US Soccer League
+3.30 -2.9%
+3.60
+1.87 +2.7%
+
+ 08:30
+US Soccer League
+1.55
+3.70 -2.6%
+4.80 +2.1%
+
+ 09:30
+US Soccer League
+2.20 +2.3%
+3.10
+2.85 -3.4%
+
+ 10:30
+US Soccer League
+1.75 +1.7%
+3.60
+3.70 -2.6%
+
+ 13:00
+A League
+1.63
+3.60
+4.30 -2.3%
+
+ 13:00
+J League 100 Year Vision
+1.75
+3.00
+4.10
+
+ 15:00
+J League 100 Year Vision
+2.65
+3.20
+2.20
+
+ 17:00
+A League
+2.95
+3.40
+2.03
+
+ 18:15
+Dutch League
+2.40 +2.1%
+3.20 -5.9%
+2.55 +2.0%
+
+ 18:30
+Italian League
+2.05
+3.10
+3.20
+
+ 19:00
+English League Champ
+2.00
+3.30
+3.10
+
+ 20:00
+Spanish League
+2.05 -2.4%
+3.30 +3.1%
+3.05 +1.7%
+
+20:00
+Swedish League
+1.58
+3.70
+4.70
+
+20:00
+Swedish League
+2.35
+3.00
+2.75
+
+ 20:30
+Dutch League
+2.15 +2.4%
+3.50 -2.8%
+2.70
+
+ 20:30
+Dutch League
+2.05
+3.50
+2.85
+
+ 20:30
+Norwegian League
+2.15 -2.3%
+3.40 +3.0%
+2.75
+
+ 21:00
+English Premier
+2.80 +5.7%
+3.20
+2.20 -4.3%
+
+ 21:00
+English Premier
+2.50
+3.05
+2.50
+
+ 21:00
+English Premier
+2.45 -2.0%
+3.10 -3.1%
+2.55 +4.1%
+
+21:00
+Italian League
+5.20
+3.50
+1.55
+
+ 21:30
+German League
+2.15
+3.10
+2.95
+
+ 22:15
+Spanish League
+2.35 -2.1%
+3.00
+2.75 +1.9%
+
+ 22:45
+Dutch League
+1.63 +1.9%
+3.90
+3.90 -4.9%
+
+ 23:00
+Norwegian League
+2.25
+3.30
+2.65
+
+ 23:00
+Norwegian League
+1.55
+3.80
+4.70 -2.1%
+
+ 23:15
+French League
+2.80
+3.00
+2.30
+
+ 23:15
+French League
+2.00 +2.6%
+2.90
+3.80
+
+ 23:30
+English Premier
+2.85
+3.60 +2.9%
+2.03 -1.0%
+
+ 23:30
+German League
+1.42
+4.10
+6.00
+
+Mon, 13 Apr 2026
+
+ 00:00
+Italian League
+1.80 +1.7%
+3.10 +1.6%
+4.20 -2.3%
+
+ 00:30
+Spanish League
+1.58
+3.70 -2.6%
+4.50
+
+ 01:30
+German League
