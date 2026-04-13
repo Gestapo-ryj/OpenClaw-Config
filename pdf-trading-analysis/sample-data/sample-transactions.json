@@ -1,0 +1,74 @@
+[
+  {
+    "date": "05 Apr 2026",
+    "time": "12:56 AM",
+    "type": "Football",
+    "selection": "Spanish League - Atletico Madrid vs Barcelona - 1X2 Barcelona @ 1.82",
+    "amount": 15.00,
+    "result": "Win",
+    "payout": 27.30
+  },
+  {
+    "date": "05 Apr 2026",
+    "time": "07:53 AM",
+    "type": "Football",
+    "selection": "US Soccer League (Live) - Charlotte FC vs Philadelphia U (Live) - Will Both Teams Score Yes @ 1.70",
+    "amount": 25.00,
+    "result": "Win",
+    "payout": 42.50
+  },
+  {
+    "date": "05 Apr 2026",
+    "time": "07:57 AM",
+    "type": "Football",
+    "selection": "US Soccer League (Live) - Atlanta Utd vs Columbus Crew (Live) - Will Both Teams Score Yes @ 1.95",
+    "amount": 13.00,
+    "result": "Win",
+    "payout": 25.35
+  },
+  {
+    "date": "05 Apr 2026",
+    "time": "11:13 AM",
+    "type": "Football",
+    "selection": "US Soccer League (Live) - LA Galaxy vs Minnesota Utd (Live) - Will Both Teams Score Yes @ 2.20",
+    "amount": 10.00,
+    "result": "Win",
+    "payout": 22.00
+  },
+  {
+    "date": "05 Apr 2026",
+    "time": "11:22 AM",
+    "type": "Football",
+    "selection": "US Soccer League (Live) - Los Angeles FC vs Orlando City (Live) - Total Goals Over/Under 6.5 Over 6.5 @ 2.03",
+    "amount": 10.00,
+    "result": "Loss",
+    "payout": 0.00
+  },
+  {
+    "date": "05 Apr 2026",
+    "time": "07:46 PM",
+    "type": "Football",
+    "selection": "German League Div 2 (Live) - Greuther Furth vs Paderborn (Live) - Will Both Teams Score Yes @ 1.67",
+    "amount": 25.00,
+    "result": "Loss",
+    "payout": 0.00
+  },
+  {
+    "date": "05 Apr 2026",
+    "time": "08:49 PM",
+    "type": "Football",
+    "selection": "German League Div 2 (Live) - Hannover vs Elversberg (Live) - Total Goals Over/Under 3.5 Under 3.5 @ 1.42",
+    "amount": 20.00,
+    "result": "Win",
+    "payout": 28.40
+  },
+  {
+    "date": "05 Apr 2026",
+    "time": "08:58 PM",
+    "type": "Football",
+    "selection": "Chinese League (Live) - Tianjin Jinmen vs Shenhua (Live) - Total Goals Over/Under 4.5 Under 4.5 @ 1.40",
+    "amount": 12.00,
+    "result": "Loss",
+    "payout": 0.00
+  }
+]

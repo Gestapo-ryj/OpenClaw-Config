@@ -1,0 +1,39 @@
+{
+  "name": "pdf-trading-analysis",
+  "version": "1.0.0",
+  "description": "PDF交易记录复盘分析系统",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "quick": "node main.js sample-data/sample-transactions.json --quick",
+    "full": "node main.js sample-data/sample-transactions.json --full",
+    "test": "echo \"运行测试...\" && node test.js",
+    "dev": "nodemon main.js"
+  },
+  "keywords": [
+    "pdf",
+    "trading",
+    "analysis",
+    "betting",
+    "复盘"
+  ],
+  "author": "OpenClaw Assistant",
+  "license": "MIT",
+  "dependencies": {
+    "pdf-parse": "^1.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/pdf-trading-analysis.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/pdf-trading-analysis/issues"
+  },
+  "homepage": "https://github.com/yourusername/pdf-trading-analysis#readme"
+}
