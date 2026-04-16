@@ -1,0 +1,37 @@
+{
+  "Liverpool": {
+    "id": "lId4TMwf",
+    "league": "Premier League",
+    "verified": true,
+    "last_verified": "2026-04-16",
+    "source": "从英超页面提取"
+  },
+  "Paris Saint-Germain": {
+    "id": "CjhkPw0k",
+    "league": "Ligue 1",
+    "verified": true,
+    "last_verified": "2026-04-16",
+    "source": "从欧冠页面提取"
+  },
+  "Bayern Munich": {
+    "id": "nVp0wiqd",
+    "league": "Bundesliga",
+    "verified": true,
+    "last_verified": "2026-04-16",
+    "source": "从欧冠页面提取"
+  },
+  "Real Madrid": {
+    "id": "SKbpVP5K",
+    "league": "La Liga",
+    "verified": false,
+    "last_verified": "2026-04-16",
+    "source": "待验证"
+  },
+  "Barcelona": {
+    "id": "SKbpVP5K",
+    "league": "La Liga",
+    "verified": false,
+    "last_verified": "2026-04-16",
+    "source": "待验证"
+  }
+}
