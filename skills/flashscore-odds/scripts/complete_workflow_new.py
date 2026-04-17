@@ -16,6 +16,7 @@ from scripts.team_id_manager import TeamIDManager
 from scripts.extract_event_id import extract_event_id_from_url
 from scripts.get_odds import get_odds_by_event_id
 import argparse
+from datetime import datetime
 
 class CompleteWorkflow:
     """完整的工作流程类"""

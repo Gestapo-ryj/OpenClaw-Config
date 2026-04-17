@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
-球队ID管理器
-优先从本地数据库读取，找不到再从FlashScore网站查询
+球队ID管理器 - 修复版
+优先从本地数据库读取，找不到再从网站查询
+修复了网站查询失败时的回退逻辑
 """
 
 import os
@@ -66,35 +67,40 @@ class TeamIDManager:
                 "league": "Premier League",
                 "verified": True,
                 "last_verified": "2026-04-16",
-                "source": "从英超页面提取"
+                "source": "从英超页面提取",
+                "last_fetched": datetime.now().isoformat()
             },
             "Paris Saint-Germain": {
                 "id": "CjhkPw0k",
                 "league": "Ligue 1",
                 "verified": True,
                 "last_verified": "2026-04-16",
-                "source": "从欧冠页面提取"
+                "source": "从欧冠页面提取",
+                "last_fetched": datetime.now().isoformat()
             },
             "Bayern Munich": {
                 "id": "nVp0wiqd",
                 "league": "Bundesliga",
                 "verified": True,
                 "last_verified": "2026-04-16",
-                "source": "从欧冠页面提取"
+                "source": "从欧冠页面提取",
+                "last_fetched": datetime.now().isoformat()
             },
             "Real Madrid": {
                 "id": "SKbpVP5K",
                 "league": "La Liga",
                 "verified": False,
                 "last_verified": "2026-04-16",
-                "source": "待验证"
+                "source": "待验证",
+                "last_fetched": datetime.now().isoformat()
             },
             "Barcelona": {
                 "id": "SKbpVP5K",
                 "league": "La Liga",
                 "verified": False,
                 "last_verified": "2026-04-16",
-                "source": "待验证"
+                "source": "待验证",
+                "last_fetched": datetime.now().isoformat()
             }
         }
         
@@ -107,31 +113,33 @@ class TeamIDManager:
         # 保存更新后的数据库
         self._save_database()
     
-    def get_team_id(self, team_name, force_refresh=False):
+    def get_team_id(self, team_name, force_refresh=False, fallback_to_local=True):
         """
         获取球队ID
         
         Args:
             team_name: 球队名称
             force_refresh: 是否强制刷新（忽略缓存）
+            fallback_to_local: 网站查询失败时是否回退到本地数据
             
         Returns:
             team_id or None
         """
         print(f"🔍 查找球队ID: {team_name}")
         
-        # 1. 检查本地数据库
+        # 1. 检查本地数据库（如果不强制刷新）
         if not force_refresh and team_name in self.database:
             team_data = self.database[team_name]
             
             # 检查是否需要刷新（如果数据太旧）
             if self._should_refresh(team_data):
                 print(f"  数据需要刷新: {team_name}")
+                # 继续尝试网站查询，但会回退到本地数据
             else:
                 print(f"✅ 从数据库找到: {team_name} -> {team_data['id']}")
                 return team_data['id']
         
-        # 2. 检查缓存文件
+        # 2. 检查缓存文件（如果不强制刷新）
         cache_file = self._get_cache_file(team_name)
         if not force_refresh and os.path.exists(cache_file):
             cached_data = self._load_cache(cache_file)
@@ -144,8 +152,8 @@ class TeamIDManager:
                 
                 return cached_data['id']
         
-        # 3. 从网站查询
-        print(f"🌐 从FlashScore查询: {team_name}")
+        # 3. 尝试从网站查询
+        print(f"🌐 尝试从FlashScore查询: {team_name}")
         team_id = self._fetch_from_website(team_name)
         
         if team_id:
@@ -163,10 +171,17 @@ class TeamIDManager:
             self._save_database()
             self._save_cache(team_name, team_data)
             
-            print(f"✅ 查询成功: {team_name} -> {team_id}")
+            print(f"✅ 网站查询成功: {team_name} -> {team_id}")
             return team_id
         else:
-            print(f"❌ 查询失败: {team_name}")
+            print(f"❌ 网站查询失败: {team_name}")
+            
+            # 4. 回退到本地数据（如果允许）
+            if fallback_to_local and team_name in self.database:
+                team_data = self.database[team_name]
+                print(f"🔄 回退到本地数据: {team_name} -> {team_data['id']}")
+                return team_data['id']
+            
             return None
     
     def _should_refresh(self, team_data):
@@ -346,52 +361,50 @@ class TeamIDManager:
             print(f"❌ 导入失败: {e}")
             return False
 
-def main():
-    """主函数 - 测试球队ID管理器"""
+def test_fixed_manager():
+    """测试修复后的管理器"""
     
     print("=" * 70)
-    print("球队ID管理器测试")
+    print("测试修复后的球队ID管理器")
     print("=" * 70)
     
     # 创建管理器
-    manager = TeamIDManager()
+    manager = TeamIDManager("test_database.json", "test_cache")
     
-    # 测试1: 获取已知球队
-    print("\n🧪 测试1: 获取已知球队")
-    test_teams = ["Liverpool", "Paris Saint-Germain", "Bayern Munich"]
-    
-    for team in test_teams:
-        team_id = manager.get_team_id(team)
-        if team_id:
-            print(f"  ✅ {team}: {team_id}")
-        else:
-            print(f"  ❌ {team}: 未找到")
-    
-    # 测试2: 搜索不存在的球队
-    print("\n🧪 测试2: 搜索不存在的球队")
-    unknown_team = "Test Team XYZ"
-    team_id = manager.get_team_id(unknown_team)
-    if team_id:
-        print(f"  ⚠ {unknown_team}: {team_id} (意外找到)")
+    # 测试1: 获取已知球队（应该从数据库返回）
+    print("\n🧪 测试1: 获取已知球队 (不强制刷新)")
+    team_id = manager.get_team_id("Liverpool", force_refresh=False)
+    if team_id == "lId4TMwf":
+        print(f"✅ 测试通过: Liverpool -> {team_id}")
     else:
-        print(f"  ✅ {unknown_team}: 未找到 (符合预期)")
+        print(f"❌ 测试失败: 期望 lId4TMwf, 得到 {team_id}")
     
-    # 测试3: 数据库统计
-    print("\n🧪 测试3: 数据库统计")
-    stats = manager.get_stats()
-    for key, value in stats.items():
-        print(f"  {key}: {value}")
+    # 测试2: 获取已知球队（强制刷新，网站会失败，应该回退）
+    print("\n🧪 测试2: 获取已知球队 (强制刷新，网站失败时回退)")
+    team_id = manager.get_team_id("Liverpool", force_refresh=True, fallback_to_local=True)
+    if team_id == "lId4TMwf":
+        print(f"✅ 测试通过: 网站失败时正确回退到本地数据")
+    else:
+        print(f"❌ 测试失败: 期望回退到 lId4TMwf, 得到 {team_id}")
     
-    # 测试4: 搜索功能
-    print("\n🧪 测试4: 搜索功能")
-    search_results = manager.search_teams("liv")
-    print(f"  搜索 'liv' 找到 {len(search_results)} 个结果:")
-    for team_name, team_data in search_results:
-        print(f"    - {team_name}: {team_data['id']}")
+    # 测试3: 获取不存在的球队
+    print("\n🧪 测试3: 获取不存在的球队")
+    team_id = manager.get_team_id("Nonexistent Team XYZ")
+    if team_id is None:
+        print(f"✅ 测试通过: 不存在的球队返回 None")
+    else:
+        print(f"❌ 测试失败: 期望 None, 得到 {team_id}")
+    
+    # 清理测试文件
+    import shutil
+    if os.path.exists("test_database.json"):
+        os.remove("test_database.json")
+    if os.path.exists("test_cache"):
+        shutil.rmtree("test_cache")
     
     print("\n" + "=" * 70)
     print("测试完成")
     print("=" * 70)
 
 if __name__ == "__main__":
-    main()
+    test_fixed_manager()

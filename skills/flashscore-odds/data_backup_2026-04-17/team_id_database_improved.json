@@ -1,0 +1,34 @@
+{
+  "Penarol": {
+    "id": "r1hkKQek",
+    "league": "uruguay",
+    "source": "从uruguay联赛页面提取",
+    "source_url": "https://www.flashscore.com/football/uruguay/liga-auf-uruguaya/",
+    "timestamp": "2026-04-17T22:21:13.847804",
+    "method": "league_page_extraction"
+  },
+  "Platense": {
+    "id": "80MMdBdN",
+    "league": "argentina",
+    "source": "从argentina联赛页面提取",
+    "source_url": "https://www.flashscore.com/football/argentina/liga-profesional/",
+    "timestamp": "2026-04-17T22:21:21.754832",
+    "method": "league_page_extraction"
+  },
+  "Liverpool": {
+    "id": "lId4TMwf",
+    "league": "uruguay",
+    "source": "从uruguay联赛页面提取",
+    "source_url": "https://www.flashscore.com/football/uruguay/liga-auf-uruguaya/",
+    "timestamp": "2026-04-17T22:21:28.742264",
+    "method": "league_page_extraction"
+  },
+  "Barcelona": {
+    "id": "SKbpVP5K",
+    "league": "uruguay",
+    "source": "从uruguay联赛页面提取",
+    "source_url": "https://www.flashscore.com/football/uruguay/liga-auf-uruguaya/",
+    "timestamp": "2026-04-17T22:21:34.864451",
+    "method": "league_page_extraction"
+  }
+}

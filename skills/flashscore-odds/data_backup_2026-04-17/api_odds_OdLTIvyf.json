@@ -1,0 +1,48 @@
+{
+  "data": {
+    "findPrematchOddsForBookmaker": {
+      "__typename": "EventOddsOverviewHomeDrawAway",
+      "bookmakerId": 417,
+      "type": "HOME_DRAW_AWAY",
+      "home": {
+        "__typename": "EventOddsOverviewItem",
+        "value": "2.57",
+        "opening": "2.28",
+        "active": true,
+        "eventParticipantId": "l8EJkfTi",
+        "change": {
+          "__typename": "EventOddsItemChange",
+          "type": "UP",
+          "previous": "2.28"
+        }
+      },
+      "draw": {
+        "__typename": "EventOddsOverviewItem",
+        "value": "4.28",
+        "opening": "4.57",
+        "active": true,
+        "eventParticipantId": null,
+        "change": {
+          "__typename": "EventOddsItemChange",
+          "type": "DOWN",
+          "previous": "4.57"
+        }
+      },
+      "away": {
+        "__typename": "EventOddsOverviewItem",
+        "value": "2.46",
+        "opening": "2.8",
+        "active": true,
+        "eventParticipantId": "M1MXRjyo",
+        "change": {
+          "__typename": "EventOddsItemChange",
+          "type": "DOWN",
+          "previous": "2.8"
+        }
+      }
+    }
+  },
+  "extensions": {
+    "significantFeedTimestamp": 1776411167
+  }
+}
