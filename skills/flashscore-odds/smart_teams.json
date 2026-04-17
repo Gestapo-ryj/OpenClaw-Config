@@ -1,0 +1,16 @@
+{
+  "Penarol": {
+    "id": "r1hkKQek",
+    "country": "uruguay",
+    "source": "手动添加",
+    "timestamp": "2026-04-17",
+    "league": "uruguay/liga-auf-uruguaya"
+  },
+  "Platense": {
+    "id": "80MMdBdN",
+    "country": "argentina",
+    "source": "手动添加",
+    "timestamp": "2026-04-17",
+    "league": "argentina/liga-profesional"
+  }
+}
