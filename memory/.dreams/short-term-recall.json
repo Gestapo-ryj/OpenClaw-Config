@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-15T12:07:05.272Z",
+  "updatedAt": "2026-05-15T15:39:23.498Z",
   "entries": {
     "memory:memory/2026-04-08.md:1:35": {
       "key": "memory:memory/2026-04-08.md:1:35",
@@ -74,18 +74,20 @@
       "endLine": 45,
       "source": "memory",
       "snippet": "- 查询了科尔多瓦学院vs防卫者的比赛详情：2026年4月6日，科尔多瓦学院2-0获胜 - 查询了纳什维尔SC vs 墨西哥美洲的比赛详情：2026年4月7日，0-0平局 - 查询了巴黎圣日耳曼vs利物浦的比赛详情：2026年4月9日，巴黎2-0获胜 ### 4. 投注复盘分析 - 为用户复盘了纳什维尔SC vs 墨西哥美洲的投注情况 - 用户投注了\"双进\"和\"主胜\"，但比赛结果是0-0平局，两项投注均失败 - 分析了失败原因：低估了淘汰赛防守强度、门将超常发挥、战术保守性 - 提供了未来投注建议：在淘汰赛阶段谨慎选择双进选项，更多考虑平局可能性 ## 技术收获 ### 1. 新球体育API使用经验 - 发现了有效的球队搜索API接口 - 学会了如何构造POST请求和解析HTML响应 - 了解了该平台的球队ID体系和URL模式 ### 2. 赔率数据解析改进 - 改进了sgodds.com数据解析逻辑，能处理时间、联赛、赔率各占一行的格式 - 增强了女足比赛检测和排除功能 - 提高了解析的健壮性和准确性 ### 3. 技能架构优化 - 实现了模块化的技能设计，便于维护和扩展 - 创建了完整的测试用例和示例代码 - 更新了详细的文档说明",
-      "recallCount": 1,
+      "recallCount": 2,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 0.42978121936321256,
-      "maxScore": 0.42978121936321256,
+      "totalScore": 0.906230166554451,
+      "maxScore": 0.47644894719123837,
       "firstRecalledAt": "2026-05-09T21:45:29.459Z",
-      "lastRecalledAt": "2026-05-09T21:45:29.459Z",
+      "lastRecalledAt": "2026-05-15T15:39:23.498Z",
       "queryHashes": [
-        "9f52b7f28c24"
+        "9f52b7f28c24",
+        "f3be10e9c542"
       ],
       "recallDays": [
-        "2026-05-10"
+        "2026-05-10",
+        "2026-05-15"
       ],
       "conceptTags": [
         "科尔多瓦学院2-0获胜",
@@ -137,18 +139,20 @@
       "endLine": 23,
       "source": "memory",
       "snippet": "# 2026-04-09 记忆记录 ## 上午工作记录 ### 1. 赔率分析技能优化 - 成功优化了odds-analyzer技能，新增了球队搜索功能 - 创建了search_team.js脚本，可以直接调用新球体育(titan007.com)的MultiSearchResult API搜索球队ID - 修复了analyze-odds.js中的赔率数据解析问题，现在能正确解析sgodds.com的实际数据格式 - 创建了集成示例integrated_example.js，展示赔率分析+球队搜索的完整流程 - 更新了SKILL.md文档，添加了球队搜索功能的详细说明 ### 2. 成功搜索科尔多瓦学院球队ID - 通过新球体育API成功搜索到科尔多瓦学院的球队ID为731 - 还找到了相关球队：科尔多瓦学院U19(51219)、U20(52295)、B队(53954)、后备队(40688) - 发现了API调用模式：POST请求到https://ba2.titan007.com/homepage/MultiSearchResult - 参数：keyword=球队名称，type=3(球队搜索)，page=0 ### 3. 比赛详情查询 - 查询了科尔多瓦学院vs防卫者的比赛详情：2026年4月6日，科尔多瓦学院2-0获胜 - 查询了纳什维尔SC vs 墨西哥美洲的比赛详情：2026年4月7日，0-0平局 - 查询了巴黎圣日耳曼vs利物浦的比赛详情：2026年4月9日，巴黎2-0获胜 ### 4. 投注复盘分析",
-      "recallCount": 1,
+      "recallCount": 2,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 0.42909893989562986,
-      "maxScore": 0.42909893989562986,
+      "totalScore": 0.8908137172460555,
+      "maxScore": 0.4617147773504257,
       "firstRecalledAt": "2026-05-09T21:45:29.459Z",
-      "lastRecalledAt": "2026-05-09T21:45:29.459Z",
+      "lastRecalledAt": "2026-05-15T15:39:23.498Z",
       "queryHashes": [
-        "9f52b7f28c24"
+        "9f52b7f28c24",
+        "f3be10e9c542"
       ],
       "recallDays": [
-        "2026-05-10"
+        "2026-05-10",
+        "2026-05-15"
       ],
       "conceptTags": [
         "成功优化了odds-analyzer技能",
@@ -263,15 +267,16 @@
       "endLine": 26,
       "source": "memory",
       "snippet": "1. **赔率分析**：今天分析了足球比赛赔率，包括西甲、英冠、阿根廷联赛、澳超等。特别关注澳超比赛（16:35 阿德莱德联 vs 奥克兰FC；14:00和16:35比赛数据存在不一致）。 2. **天气查询**：今天新加坡天气多云，29°C，有降雨概率。 3. **美食推荐**：为用户推荐了巴西立地区的美食，包括White Sands购物中心、Pasir Ris Central Hawker Centre等。 4. **技能查看**：用户查看了可用的skill列表，包括odds-analyzer、odds-summary、feishu相关技能等。 ### 技术问题记录 - **网关配对问题**：尝试执行openclaw命令时遇到\"gateway closed (1008): pairing required\"错误，需要重新配对网关服务。 - **数据解析问题**：odds-analyzer解析sgodds.com数据时遇到格式问题，需要优化解析逻辑。 - **API配额限制**：Gemini搜索API可能遇到配额限制，影响实时信息获取。 ### 后续建议 1. **赔率分析改进**：修复odds-analyzer的数据解析问题，增加多源数据验证。 2. **网关修复**：指导用户手动修复网关连接以切换模型。 3. **位置服务**：可基于用户在新加坡巴西立的位置提供更精准的本地服务推荐。",
-      "recallCount": 1,
+      "recallCount": 2,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 0.4482503086328506,
-      "maxScore": 0.4482503086328506,
+      "totalScore": 0.9083234637975692,
+      "maxScore": 0.4600731551647186,
       "firstRecalledAt": "2026-05-15T12:07:05.272Z",
-      "lastRecalledAt": "2026-05-15T12:07:05.272Z",
+      "lastRecalledAt": "2026-05-15T15:39:23.498Z",
       "queryHashes": [
-        "3fb0c013ce12"
+        "3fb0c013ce12",
+        "f3be10e9c542"
       ],
       "recallDays": [
         "2026-05-15"
@@ -347,6 +352,37 @@
         "odds-analyzer技能更新",
         "修改了analyze-odds.js代码和skill.md文档",
         "想切换到deepseek-reasoner模型"
+      ]
+    },
+    "memory:memory/2026-04-17.md:137:146": {
+      "key": "memory:memory/2026-04-17.md:137:146",
+      "path": "memory/2026-04-17.md",
+      "startLine": 137,
+      "endLine": 146,
+      "source": "memory",
+      "snippet": "### 成功方法总结 - **访问URL**: 联赛页面而非搜索页面 - **解析模式**: 比赛链接格式提取 - **ID格式**: 8位字符混合 - **验证状态**: 佩纳罗尔和普拉腾斯已验证 --- **记录时间**: 2026-04-17 22:37 (新加坡时间) **记录者**: OpenClaw Assistant **验证状态**: ✅ 佩纳罗尔和普拉腾斯查询成功",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.4599931508302688,
+      "maxScore": 0.4599931508302688,
+      "firstRecalledAt": "2026-05-15T15:39:23.498Z",
+      "lastRecalledAt": "2026-05-15T15:39:23.498Z",
+      "queryHashes": [
+        "f3be10e9c542"
+      ],
+      "recallDays": [
+        "2026-05-15"
+      ],
+      "conceptTags": [
+        "成功",
+        "方法",
+        "总结",
+        "访问",
+        "url",
+        "搜索",
+        "解析",
+        "模式"
       ]
     }
   }
