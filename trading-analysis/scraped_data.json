@@ -1,0 +1,1900 @@
+[
+  {
+    "home_team": "八戸",
+    "away_team": "湘南",
+    "home_goals": 0,
+    "away_goals": 1,
+    "total_goals": 1,
+    "has_pk": false,
+    "score_raw": "0 - 1",
+    "goals": [
+      {
+        "team": "湘",
+        "player": "山田寛人",
+        "raw_time": "6分",
+        "parsed": [
+          1,
+          6,
+          false
+        ]
+      }
+    ],
+    "league": "EAST-A",
+    "round": "R15",
+    "date": "20260506",
+    "url": "https://web.gekisaka.jp/jscore/detail/?league=9&date=20260506"
+  },
+  {
+    "home_team": "仙台",
+    "away_team": "栃木SC",
+    "home_goals": 2,
+    "away_goals": 1,
+    "total_goals": 3,
+    "has_pk": false,
+    "score_raw": "2 - 1",
+    "goals": [
+      {
+        "team": "仙",
+        "player": "岩渕弘人",
+        "raw_time": "45分+1",
+        "parsed": [
+          1,
+          45,
+          true
+        ]
+      },
+      {
+        "team": "仙",
+        "player": "中田有祐",
+        "raw_time": "57分",
+        "parsed": [
+          2,
+          57,
+          false
+        ]
+      },
+      {
+        "team": "栃",
+        "player": "近藤慶一",
+        "raw_time": "14分",
+        "parsed": [
+          1,
+          14,
+          false
+        ]
+      }
+    ],
+    "league": "EAST-A",
+    "round": "R15",
+    "date": "20260506",
+    "url": "https://web.gekisaka.jp/jscore/detail/?league=9&date=20260506"
+  },
+  {
+    "home_team": "山形",
+    "away_team": "群馬",
+    "home_goals": 1,
+    "away_goals": 2,
+    "total_goals": 3,
+    "has_pk": false,
+    "score_raw": "1 - 2",
+    "goals": [
+      {
+        "team": "山",
+        "player": "野嶽寛也",
+        "raw_time": "73分",
+        "parsed": [
+          2,
+          73,
+          false
+        ]
+      },
+      {
+        "team": "群",
+        "player": "中島大嘉",
+        "raw_time": "29分",
+        "parsed": [
+          1,
+          29,
+          false
+        ]
+      },
+      {
+        "team": "群",
+        "player": "百田真登",
+        "raw_time": "90分+5",
+        "parsed": [
+          2,
+          90,
+          true
+        ]
+      }
+    ],
+    "league": "EAST-A",
+    "round": "R15",
+    "date": "20260506",
+    "url": "https://web.gekisaka.jp/jscore/detail/?league=9&date=20260506"
+  },
+  {
+    "home_team": "栃木C",
+    "away_team": "横浜FC",
+    "home_goals": 2,
+    "away_goals": 2,
+    "total_goals": 4,
+    "has_pk": true,
+    "score_raw": "2 - 2",
+    "goals": [
+      {
+        "team": "栃",
+        "player": "森俊貴",
+        "raw_time": "45分",
+        "parsed": [
+          1,
+          45,
+          false
+        ]
+      },
+      {
+        "team": "栃",
+        "player": "山下敬大",
+        "raw_time": "53分",
+        "parsed": [
+          2,
+          53,
+          false
+        ]
+      },
+      {
+        "team": "横",
+        "player": "岩武克弥",
+        "raw_time": "23分",
+        "parsed": [
+          1,
+          23,
+          false
+        ]
+      },
+      {
+        "team": "横",
+        "player": "宇田光史朗",
+        "raw_time": "45分+1",
+        "parsed": [
+          1,
+          45,
+          true
+        ]
+      }
+    ],
+    "league": "EAST-A",
+    "round": "R15",
+    "date": "20260506",
+    "url": "https://web.gekisaka.jp/jscore/detail/?league=9&date=20260506"
+  },
+  {
+    "home_team": "秋田",
+    "away_team": "相模原",
+    "home_goals": 0,
+    "away_goals": 1,
+    "total_goals": 1,
+    "has_pk": false,
+    "score_raw": "0 - 1",
+    "goals": [
+      {
+        "team": "相",
+        "player": "田鎖勇作",
+        "raw_time": "42分",
+        "parsed": [
+          1,
+          42,
+          false
+        ]
+      }
+    ],
+    "league": "EAST-A",
+    "round": "R15",
+    "date": "20260506",
+    "url": "https://web.gekisaka.jp/jscore/detail/?league=9&date=20260506"
+  },
+  {
+    "home_team": "札幌",
+    "away_team": "長野",
+    "home_goals": 2,
+    "away_goals": 0,
+    "total_goals": 2,
+    "has_pk": false,
+    "score_raw": "2 - 0",
+    "goals": [
+      {
+        "team": "札",
+        "player": "荒野拓馬",
+        "raw_time": "40分",
+        "parsed": [
+          1,
+          40,
+          false
+        ]
+      },
+      {
+        "team": "札",
+        "player": "アマドゥ・バカヨコ",
+        "raw_time": "85分",
+        "parsed": [
+          2,
+          85,
+          false
+        ]
+      }
+    ],
+    "league": "EAST-B",
+    "round": "R15",
+    "date": "20260506",
+    "url": "https://web.gekisaka.jp/jscore/detail/?league=10&date=20260506"
+  },
+  {
+    "home_team": "大宮",
+    "away_team": "いわき",
+    "home_goals": 3,
+    "away_goals": 2,
+    "total_goals": 5,
+    "has_pk": false,
+    "score_raw": "3 - 2",
+    "goals": [
+      {
+        "team": "大",
+        "player": "泉柊椰",
+        "raw_time": "14分",
+        "parsed": [
+          1,
+          14,
+          false
+        ]
+      },
+      {
+        "team": "大",
+        "player": "カプリーニ",
+        "raw_time": "42分",
+        "parsed": [
+          1,
+          42,
+          false
+        ]
+      },
+      {
+        "team": "大",
+        "player": "オリオラ・サンデー",
+        "raw_time": "49分",
+        "parsed": [
+          2,
+          49,
+          false
+        ]
+      },
+      {
+        "team": "い",
+        "player": "遠藤凌",
+        "raw_time": "24分",
+        "parsed": [
+          1,
+          24,
+          false
+        ]
+      },
+      {
+        "team": "い",
+        "player": "山中惇希",
+        "raw_time": "80分",
+        "parsed": [
+          2,
+          80,
+          false
+        ]
+      }
+    ],
+    "league": "EAST-B",
+    "round": "R15",
+    "date": "20260506",
+    "url": "https://web.gekisaka.jp/jscore/detail/?league=10&date=20260506"
+  },
+  {
+    "home_team": "甲府",
+    "away_team": "磐田",
+    "home_goals": 1,
+    "away_goals": 2,
+    "total_goals": 3,
+    "has_pk": false,
+    "score_raw": "1 - 2",
+    "goals": [
+      {
+        "team": "甲",
+        "player": "荒木翔",
+        "raw_time": "35分",
+        "parsed": [
+          1,
+          35,
+          false
+        ]
+      },
+      {
+        "team": "磐",
+        "player": "ヤン・ファンデンベルフ",
+        "raw_time": "81分",
+        "parsed": [
+          2,
+          81,
+          false
+        ]
+      },
+      {
+        "team": "磐",
+        "player": "マテウス・ペイショット",
+        "raw_time": "85分",
+        "parsed": [
+          2,
+          85,
+          false
+        ]
+      }
+    ],
+    "league": "EAST-B",
+    "round": "R15",
+    "date": "20260506",
+    "url": "https://web.gekisaka.jp/jscore/detail/?league=10&date=20260506"
+  },
+  {
+    "home_team": "藤枝",
+    "away_team": "福島",
+    "home_goals": 1,
+    "away_goals": 1,
+    "total_goals": 2,
+    "has_pk": true,
+    "score_raw": "1 - 1",
+    "goals": [
+      {
+        "team": "藤",
+        "player": "中村優斗",
+        "raw_time": "28分",
+        "parsed": [
+          1,
+          28,
+          false
+        ]
+      },
+      {
+        "team": "福",
+        "player": "岡田優希",
+        "raw_time": "45分+2",
+        "parsed": [
+          1,
+          45,
+          true
+        ]
+      }
+    ],
+    "league": "EAST-B",
+    "round": "R15",
+    "date": "20260506",
+    "url": "https://web.gekisaka.jp/jscore/detail/?league=10&date=20260506"
+  },
+  {
+    "home_team": "岐阜",
+    "away_team": "松本",
+    "home_goals": 0,
+    "away_goals": 3,
+    "total_goals": 3,
+    "has_pk": false,
+    "score_raw": "0 - 3",
+    "goals": [
+      {
+        "team": "松",
+        "player": "藤枝康佑",
+        "raw_time": "43分",
+        "parsed": [
+          1,
+          43,
+          false
+        ]
+      },
+      {
+        "team": "松",
+        "player": "藤枝康佑",
+        "raw_time": "78分",
+        "parsed": [
+          2,
+          78,
+          false
+        ]
+      },
+      {
+        "team": "松",
+        "player": "井上愛簾",
+        "raw_time": "60分",
+        "parsed": [
+          2,
+          60,
+          false
+        ]
+      }
+    ],
+    "league": "EAST-B",
+    "round": "R15",
+    "date": "20260506",
+    "url": "https://web.gekisaka.jp/jscore/detail/?league=10&date=20260506"
+  },
+  {
+    "home_team": "新潟",
+    "away_team": "徳島",
+    "home_goals": 1,
+    "away_goals": 0,
+    "total_goals": 1,
+    "has_pk": false,
+    "score_raw": "1 - 0",
+    "goals": [
+      {
+        "team": "新",
+        "player": "シマブク・カズヨシ",
+        "raw_time": "23分",
+        "parsed": [
+          1,
+          23,
+          false
+        ]
+      }
+    ],
+    "league": "WEST-A",
+    "round": "R15",
+    "date": "20260506",
+    "url": "https://web.gekisaka.jp/jscore/detail/?league=11&date=20260506"
+  },
+  {
+    "home_team": "富山",
+    "away_team": "讃岐",
+    "home_goals": 1,
+    "away_goals": 1,
+    "total_goals": 2,
+    "has_pk": true,
+    "score_raw": "1 - 1",
+    "goals": [
+      {
+        "team": "富",
+        "player": "古川真人",
+        "raw_time": "41分",
+        "parsed": [
+          1,
+          41,
+          false
+        ]
+      },
+      {
+        "team": "讃",
+        "player": "イ・ギサン",
+        "raw_time": "86分",
+        "parsed": [
+          2,
+          86,
+          false
+        ]
+      }
+    ],
+    "league": "WEST-A",
+    "round": "R15",
+    "date": "20260506",
+    "url": "https://web.gekisaka.jp/jscore/detail/?league=11&date=20260506"
+  },
+  {
+    "home_team": "金沢",
+    "away_team": "愛媛",
+    "home_goals": 0,
+    "away_goals": 2,
+    "total_goals": 2,
+    "has_pk": false,
+    "score_raw": "0 - 2",
+    "goals": [
+      {
+        "team": "愛",
+        "player": "田口裕也",
+        "raw_time": "17分",
+        "parsed": [
+          1,
+          17,
+          false
+        ]
+      },
+      {
+        "team": "愛",
+        "player": "田口裕也",
+        "raw_time": "53分",
+        "parsed": [
+          2,
+          53,
+          false
+        ]
+      }
+    ],
+    "league": "WEST-A",
+    "round": "R15",
+    "date": "20260506",
+    "url": "https://web.gekisaka.jp/jscore/detail/?league=11&date=20260506"
+  },
+  {
+    "home_team": "奈良",
+    "away_team": "FC大阪",
+    "home_goals": 1,
+    "away_goals": 3,
+    "total_goals": 4,
+    "has_pk": false,
+    "score_raw": "1 - 3",
+    "goals": [
+      {
+        "team": "奈",
+        "player": "田村翔太",
+        "raw_time": "80分",
+        "parsed": [
+          2,
+          80,
+          false
+        ]
+      },
+      {
+        "team": "F",
+        "player": "福井和樹",
+        "raw_time": "3分",
+        "parsed": [
+          1,
+          3,
+          false
+        ]
+      },
+      {
+        "team": "F",
+        "player": "菅原龍之助",
+        "raw_time": "38分",
+        "parsed": [
+          1,
+          38,
+          false
+        ]
+      },
+      {
+        "team": "F",
+        "player": "舘野俊祐",
+        "raw_time": "55分",
+        "parsed": [
+          2,
+          55,
+          false
+        ]
+      }
+    ],
+    "league": "WEST-A",
+    "round": "R15",
+    "date": "20260506",
+    "url": "https://web.gekisaka.jp/jscore/detail/?league=11&date=20260506"
+  },
+  {
+    "home_team": "今治",
+    "away_team": "高知",
+    "home_goals": 1,
+    "away_goals": 0,
+    "total_goals": 1,
+    "has_pk": false,
+    "score_raw": "1 - 0",
+    "goals": [
+      {
+        "team": "今",
+        "player": "エジガル・ジュニオ",
+        "raw_time": "72分",
+        "parsed": [
+          2,
+          72,
+          false
+        ]
+      }
+    ],
+    "league": "WEST-A",
+    "round": "R15",
+    "date": "20260506",
+    "url": "https://web.gekisaka.jp/jscore/detail/?league=11&date=20260506"
+  },
+  {
+    "home_team": "滋賀",
+    "away_team": "山口",
+    "home_goals": 1,
+    "away_goals": 4,
+    "total_goals": 5,
+    "has_pk": false,
+    "score_raw": "1 - 4",
+    "goals": [
+      {
+        "team": "滋",
+        "player": "日野友貴",
+        "raw_time": "73分",
+        "parsed": [
+          2,
+          73,
+          false
+        ]
+      },
+      {
+        "team": "山",
+        "player": "野寄和哉",
+        "raw_time": "37分",
+        "parsed": [
+          1,
+          37,
+          false
+        ]
+      },
+      {
+        "team": "山",
+        "player": "田邉光平",
+        "raw_time": "42分",
+        "parsed": [
+          1,
+          42,
+          false
+        ]
+      },
+      {
+        "team": "山",
+        "player": "山本駿亮",
+        "raw_time": "60分",
+        "parsed": [
+          2,
+          60,
+          false
+        ]
+      },
+      {
+        "team": "山",
+        "player": "奥山洋平",
+        "raw_time": "90分",
+        "parsed": [
+          2,
+          90,
+          false
+        ]
+      }
+    ],
+    "league": "WEST-B",
+    "round": "R15",
+    "date": "20260506",
+    "url": "https://web.gekisaka.jp/jscore/detail/?league=12&date=20260506"
+  },
+  {
+    "home_team": "北九州",
+    "away_team": "熊本",
+    "home_goals": 1,
+    "away_goals": 2,
+    "total_goals": 3,
+    "has_pk": false,
+    "score_raw": "1 - 2",
+    "goals": [
+      {
+        "team": "北",
+        "player": "長谷川光基",
+        "raw_time": "47分",
+        "parsed": [
+          2,
+          47,
+          false
+        ]
+      },
+      {
+        "team": "熊",
+        "player": "半代将都",
+        "raw_time": "45分+1",
+        "parsed": [
+          1,
+          45,
+          true
+        ]
+      },
+      {
+        "team": "熊",
+        "player": "大本祐槻",
+        "raw_time": "61分",
+        "parsed": [
+          2,
+          61,
+          false
+        ]
+      }
+    ],
+    "league": "WEST-B",
+    "round": "R15",
+    "date": "20260506",
+    "url": "https://web.gekisaka.jp/jscore/detail/?league=12&date=20260506"
+  },
+  {
+    "home_team": "鳥栖",
+    "away_team": "鳥取",
+    "home_goals": 4,
+    "away_goals": 0,
+    "total_goals": 4,
+    "has_pk": false,
+    "score_raw": "4 - 0",
+    "goals": [
+      {
+        "team": "栖",
+        "player": "芳野凱斗",
+        "raw_time": "11分",
+        "parsed": [
+          1,
+          11,
+          false
+        ]
+      },
+      {
+        "team": "栖",
+        "player": "塩浜遼",
+        "raw_time": "26分",
+        "parsed": [
+          1,
+          26,
+          false
+        ]
+      },
+      {
+        "team": "栖",
+        "player": "伊澤璃来",
+        "raw_time": "45分+1",
+        "parsed": [
+          1,
+          45,
+          true
+        ]
+      },
+      {
+        "team": "栖",
+        "player": "酒井宣福",
+        "raw_time": "90分+4",
+        "parsed": [
+          2,
+          90,
+          true
+        ]
+      }
+    ],
+    "league": "WEST-B",
+    "round": "R15",
+    "date": "20260506",
+    "url": "https://web.gekisaka.jp/jscore/detail/?league=12&date=20260506"
+  },
+  {
+    "home_team": "宮崎",
+    "away_team": "琉球",
+    "home_goals": 1,
+    "away_goals": 0,
+    "total_goals": 1,
+    "has_pk": false,
+    "score_raw": "1 - 0",
+    "goals": [
+      {
+        "team": "宮",
+        "player": "阿野真拓",
+        "raw_time": "34分",
+        "parsed": [
+          1,
+          34,
+          false
+        ]
+      }
+    ],
+    "league": "WEST-B",
+    "round": "R15",
+    "date": "20260506",
+    "url": "https://web.gekisaka.jp/jscore/detail/?league=12&date=20260506"
+  },
+  {
+    "home_team": "鹿児島",
+    "away_team": "大分",
+    "home_goals": 0,
+    "away_goals": 1,
+    "total_goals": 1,
+    "has_pk": false,
+    "score_raw": "0 - 1",
+    "goals": [
+      {
+        "team": "大",
+        "player": "パトリッキ・ヴェロン",
+        "raw_time": "65分",
+        "parsed": [
+          2,
+          65,
+          false
+        ]
+      }
+    ],
+    "league": "WEST-B",
+    "round": "R15",
+    "date": "20260506",
+    "url": "https://web.gekisaka.jp/jscore/detail/?league=12&date=20260506"
+  },
+  {
+    "home_team": "八戸",
+    "away_team": "仙台",
+    "home_goals": 1,
+    "away_goals": 1,
+    "total_goals": 2,
+    "has_pk": true,
+    "score_raw": "1 - 1",
+    "goals": [
+      {
+        "team": "八",
+        "player": "澤上竜二",
+        "raw_time": "18分",
+        "parsed": [
+          1,
+          18,
+          false
+        ]
+      },
+      {
+        "team": "仙",
+        "player": "相良竜之介",
+        "raw_time": "53分",
+        "parsed": [
+          2,
+          53,
+          false
+        ]
+      }
+    ],
+    "league": "EAST-A",
+    "round": "R16",
+    "date": "20260510",
+    "url": "https://web.gekisaka.jp/jscore/detail/?league=9&date=20260510"
+  },
+  {
+    "home_team": "山形",
+    "away_team": "相模原",
+    "home_goals": 2,
+    "away_goals": 3,
+    "total_goals": 5,
+    "has_pk": false,
+    "score_raw": "2 - 3",
+    "goals": [
+      {
+        "team": "山",
+        "player": "高橋潤哉",
+        "raw_time": "5分",
+        "parsed": [
+          1,
+          5,
+          false
+        ]
+      },
+      {
+        "team": "山",
+        "player": "高橋潤哉",
+        "raw_time": "42分",
+        "parsed": [
+          1,
+          42,
+          false
+        ]
+      },
+      {
+        "team": "相",
+        "player": "棚橋尭士",
+        "raw_time": "44分",
+        "parsed": [
+          1,
+          44,
+          false
+        ]
+      },
+      {
+        "team": "相",
+        "player": "杉本蓮",
+        "raw_time": "67分",
+        "parsed": [
+          2,
+          67,
+          false
+        ]
+      },
+      {
+        "team": "相",
+        "player": "山内琳太郎",
+        "raw_time": "79分",
+        "parsed": [
+          2,
+          79,
+          false
+        ]
+      }
+    ],
+    "league": "EAST-A",
+    "round": "R16",
+    "date": "20260510",
+    "url": "https://web.gekisaka.jp/jscore/detail/?league=9&date=20260510"
+  },
+  {
+    "home_team": "栃木SC",
+    "away_team": "秋田",
+    "home_goals": 0,
+    "away_goals": 0,
+    "total_goals": 0,
+    "has_pk": true,
+    "score_raw": "0 - 0",
+    "goals": [],
+    "league": "EAST-A",
+    "round": "R16",
+    "date": "20260510",
+    "url": "https://web.gekisaka.jp/jscore/detail/?league=9&date=20260510"
+  },
+  {
+    "home_team": "湘南",
+    "away_team": "横浜FC",
+    "home_goals": 0,
+    "away_goals": 1,
+    "total_goals": 1,
+    "has_pk": false,
+    "score_raw": "0 - 1",
+    "goals": [
+      {
+        "team": "横",
+        "player": "細井響",
+        "raw_time": "40分",
+        "parsed": [
+          1,
+          40,
+          false
+        ]
+      }
+    ],
+    "league": "EAST-A",
+    "round": "R16",
+    "date": "20260510",
+    "url": "https://web.gekisaka.jp/jscore/detail/?league=9&date=20260510"
+  },
+  {
+    "home_team": "福島",
+    "away_team": "磐田",
+    "home_goals": 4,
+    "away_goals": 2,
+    "total_goals": 6,
+    "has_pk": false,
+    "score_raw": "4 - 2",
+    "goals": [
+      {
+        "team": "福",
+        "player": "芦部晃生",
+        "raw_time": "20分",
+        "parsed": [
+          1,
+          20,
+          false
+        ]
+      },
+      {
+        "team": "福",
+        "player": "上畑佑平士",
+        "raw_time": "53分",
+        "parsed": [
+          2,
+          53,
+          false
+        ]
+      },
+      {
+        "team": "福",
+        "player": "狩野海晟",
+        "raw_time": "71分",
+        "parsed": [
+          2,
+          71,
+          false
+        ]
+      },
+      {
+        "team": "福",
+        "player": "中村翼",
+        "raw_time": "82分",
+        "parsed": [
+          2,
+          82,
+          false
+        ]
+      },
+      {
+        "team": "磐",
+        "player": "松原后",
+        "raw_time": "30分",
+        "parsed": [
+          1,
+          30,
+          false
+        ]
+      },
+      {
+        "team": "磐",
+        "player": "マテウス・ペイショット",
+        "raw_time": "90分+3",
+        "parsed": [
+          2,
+          90,
+          true
+        ]
+      }
+    ],
+    "league": "EAST-B",
+    "round": "R16",
+    "date": "20260510",
+    "url": "https://web.gekisaka.jp/jscore/detail/?league=10&date=20260510"
+  },
+  {
+    "home_team": "松本",
+    "away_team": "藤枝",
+    "home_goals": 0,
+    "away_goals": 0,
+    "total_goals": 0,
+    "has_pk": true,
+    "score_raw": "0 - 0",
+    "goals": [],
+    "league": "EAST-B",
+    "round": "R16",
+    "date": "20260510",
+    "url": "https://web.gekisaka.jp/jscore/detail/?league=10&date=20260510"
+  },
+  {
+    "home_team": "金沢",
+    "away_team": "新潟",
+    "home_goals": 1,
+    "away_goals": 1,
+    "total_goals": 2,
+    "has_pk": true,
+    "score_raw": "1 - 1",
+    "goals": [
+      {
+        "team": "金",
+        "player": "山本義道",
+        "raw_time": "45分+2",
+        "parsed": [
+          1,
+          45,
+          true
+        ]
+      },
+      {
+        "team": "新",
+        "player": "藤原奏哉",
+        "raw_time": "90分+1",
+        "parsed": [
+          2,
+          90,
+          true
+        ]
+      }
+    ],
+    "league": "WEST-A",
+    "round": "R16",
+    "date": "20260510",
+    "url": "https://web.gekisaka.jp/jscore/detail/?league=11&date=20260510"
+  },
+  {
+    "home_team": "讃岐",
+    "away_team": "高知",
+    "home_goals": 0,
+    "away_goals": 3,
+    "total_goals": 3,
+    "has_pk": false,
+    "score_raw": "0 - 3",
+    "goals": [
+      {
+        "team": "高",
+        "player": "新谷聖基",
+        "raw_time": "17分",
+        "parsed": [
+          1,
+          17,
+          false
+        ]
+      },
+      {
+        "team": "高",
+        "player": "深川大輔",
+        "raw_time": "21分",
+        "parsed": [
+          1,
+          21,
+          false
+        ]
+      },
+      {
+        "team": "高",
+        "player": "青戸翔",
+        "raw_time": "85分",
+        "parsed": [
+          2,
+          85,
+          false
+        ]
+      }
+    ],
+    "league": "WEST-A",
+    "round": "R16",
+    "date": "20260510",
+    "url": "https://web.gekisaka.jp/jscore/detail/?league=11&date=20260510"
+  },
+  {
+    "home_team": "徳島",
+    "away_team": "奈良",
+    "home_goals": 1,
+    "away_goals": 2,
+    "total_goals": 3,
+    "has_pk": false,
+    "score_raw": "1 - 2",
+    "goals": [
+      {
+        "team": "徳",
+        "player": "鹿沼直生",
+        "raw_time": "53分",
+        "parsed": [
+          2,
+          53,
+          false
+        ]
+      },
+      {
+        "team": "奈",
+        "player": "オウンゴール",
+        "raw_time": "44分",
+        "parsed": [
+          1,
+          44,
+          false
+        ]
+      },
+      {
+        "team": "奈",
+        "player": "森田凜",
+        "raw_time": "72分",
+        "parsed": [
+          2,
+          72,
+          false
+        ]
+      }
+    ],
+    "league": "WEST-A",
+    "round": "R16",
+    "date": "20260510",
+    "url": "https://web.gekisaka.jp/jscore/detail/?league=11&date=20260510"
+  },
+  {
+    "home_team": "愛媛",
+    "away_team": "富山",
+    "home_goals": 0,
+    "away_goals": 2,
+    "total_goals": 2,
+    "has_pk": false,
+    "score_raw": "0 - 2",
+    "goals": [
+      {
+        "team": "富",
+        "player": "亀田歩夢",
+        "raw_time": "69分",
+        "parsed": [
+          2,
+          69,
+          false
+        ]
+      },
+      {
+        "team": "富",
+        "player": "キム・テウォン",
+        "raw_time": "83分",
+        "parsed": [
+          2,
+          83,
+          false
+        ]
+      }
+    ],
+    "league": "WEST-A",
+    "round": "R16",
+    "date": "20260510",
+    "url": "https://web.gekisaka.jp/jscore/detail/?league=11&date=20260510"
+  },
+  {
+    "home_team": "滋賀",
+    "away_team": "鹿児島",
+    "home_goals": 1,
+    "away_goals": 0,
+    "total_goals": 1,
+    "has_pk": false,
+    "score_raw": "1 - 0",
+    "goals": [
+      {
+        "team": "滋",
+        "player": "木下礼生",
+        "raw_time": "48分",
+        "parsed": [
+          2,
+          48,
+          false
+        ]
+      }
+    ],
+    "league": "WEST-B",
+    "round": "R16",
+    "date": "20260510",
+    "url": "https://web.gekisaka.jp/jscore/detail/?league=12&date=20260510"
+  },
+  {
+    "home_team": "鳥取",
+    "away_team": "北九州",
+    "home_goals": 1,
+    "away_goals": 1,
+    "total_goals": 2,
+    "has_pk": true,
+    "score_raw": "1 - 1",
+    "goals": [
+      {
+        "team": "鳥",
+        "player": "星景虎",
+        "raw_time": "28分",
+        "parsed": [
+          1,
+          28,
+          false
+        ]
+      },
+      {
+        "team": "北",
+        "player": "渡邉颯太",
+        "raw_time": "72分",
+        "parsed": [
+          2,
+          72,
+          false
+        ]
+      }
+    ],
+    "league": "WEST-B",
+    "round": "R16",
+    "date": "20260510",
+    "url": "https://web.gekisaka.jp/jscore/detail/?league=12&date=20260510"
+  },
+  {
+    "home_team": "熊本",
+    "away_team": "琉球",
+    "home_goals": 0,
+    "away_goals": 1,
+    "total_goals": 1,
+    "has_pk": false,
+    "score_raw": "0 - 1",
+    "goals": [
+      {
+        "team": "琉",
+        "player": "庵原篤人",
+        "raw_time": "38分",
+        "parsed": [
+          1,
+          38,
+          false
+        ]
+      }
+    ],
+    "league": "WEST-B",
+    "round": "R16",
+    "date": "20260510",
+    "url": "https://web.gekisaka.jp/jscore/detail/?league=12&date=20260510"
+  },
+  {
+    "home_team": "大分",
+    "away_team": "鳥栖",
+    "home_goals": 0,
+    "away_goals": 1,
+    "total_goals": 1,
+    "has_pk": false,
+    "score_raw": "0 - 1",
+    "goals": [
+      {
+        "team": "鳥",
+        "player": "弓場堅真",
+        "raw_time": "30分",
+        "parsed": [
+          1,
+          30,
+          false
+        ]
+      }
+    ],
+    "league": "WEST-B",
+    "round": "R16",
+    "date": "20260510",
+    "url": "https://web.gekisaka.jp/jscore/detail/?league=12&date=20260510"
+  },
+  {
+    "home_team": "栃木C",
+    "away_team": "山形",
+    "home_goals": 3,
+    "away_goals": 0,
+    "total_goals": 3,
+    "has_pk": false,
+    "score_raw": "3 - 0",
+    "goals": [
+      {
+        "team": "栃",
+        "player": "知念哲矢",
+        "raw_time": "61分",
+        "parsed": [
+          2,
+          61,
+          false
+        ]
+      },
+      {
+        "team": "栃",
+        "player": "山下敬大",
+        "raw_time": "77分",
+        "parsed": [
+          2,
+          77,
+          false
+        ]
+      },
+      {
+        "team": "栃",
+        "player": "小池裕太",
+        "raw_time": "90分+1",
+        "parsed": [
+          2,
+          90,
+          true
+        ]
+      }
+    ],
+    "league": "EAST-A",
+    "round": "R17",
+    "date": "20260516",
+    "url": "https://web.gekisaka.jp/jscore/detail/?league=9&date=20260516"
+  },
+  {
+    "home_team": "湘南",
+    "away_team": "仙台",
+    "home_goals": 0,
+    "away_goals": 2,
+    "total_goals": 2,
+    "has_pk": false,
+    "score_raw": "0 - 2",
+    "goals": [
+      {
+        "team": "仙",
+        "player": "南創太",
+        "raw_time": "72分",
+        "parsed": [
+          2,
+          72,
+          false
+        ]
+      },
+      {
+        "team": "仙",
+        "player": "荒木駿太",
+        "raw_time": "90分+6",
+        "parsed": [
+          2,
+          90,
+          true
+        ]
+      }
+    ],
+    "league": "EAST-A",
+    "round": "R17",
+    "date": "20260516",
+    "url": "https://web.gekisaka.jp/jscore/detail/?league=9&date=20260516"
+  },
+  {
+    "home_team": "相模原",
+    "away_team": "八戸",
+    "home_goals": 1,
+    "away_goals": 1,
+    "total_goals": 2,
+    "has_pk": true,
+    "score_raw": "1 - 1",
+    "goals": [
+      {
+        "team": "相",
+        "player": "棚橋尭士",
+        "raw_time": "25分",
+        "parsed": [
+          1,
+          25,
+          false
+        ]
+      },
+      {
+        "team": "八",
+        "player": "高尾流星",
+        "raw_time": "80分",
+        "parsed": [
+          2,
+          80,
+          false
+        ]
+      }
+    ],
+    "league": "EAST-A",
+    "round": "R17",
+    "date": "20260516",
+    "url": "https://web.gekisaka.jp/jscore/detail/?league=9&date=20260516"
+  },
+  {
+    "home_team": "福島",
+    "away_team": "札幌",
+    "home_goals": 0,
+    "away_goals": 3,
+    "total_goals": 3,
+    "has_pk": false,
+    "score_raw": "0 - 3",
+    "goals": [
+      {
+        "team": "札",
+        "player": "堀米悠斗",
+        "raw_time": "34分",
+        "parsed": [
+          1,
+          34,
+          false
+        ]
+      },
+      {
+        "team": "札",
+        "player": "長谷川竜也",
+        "raw_time": "55分",
+        "parsed": [
+          2,
+          55,
+          false
+        ]
+      },
+      {
+        "team": "札",
+        "player": "荒野拓馬",
+        "raw_time": "61分",
+        "parsed": [
+          2,
+          61,
+          false
+        ]
+      }
+    ],
+    "league": "EAST-B",
+    "round": "R17",
+    "date": "20260516",
+    "url": "https://web.gekisaka.jp/jscore/detail/?league=10&date=20260516"
+  },
+  {
+    "home_team": "磐田",
+    "away_team": "藤枝",
+    "home_goals": 0,
+    "away_goals": 3,
+    "total_goals": 3,
+    "has_pk": false,
+    "score_raw": "0 - 3",
+    "goals": [
+      {
+        "team": "藤",
+        "player": "森侑里",
+        "raw_time": "38分",
+        "parsed": [
+          1,
+          38,
+          false
+        ]
+      },
+      {
+        "team": "藤",
+        "player": "真鍋隼虎",
+        "raw_time": "48分",
+        "parsed": [
+          2,
+          48,
+          false
+        ]
+      },
+      {
+        "team": "藤",
+        "player": "真鍋隼虎",
+        "raw_time": "50分",
+        "parsed": [
+          2,
+          50,
+          false
+        ]
+      }
+    ],
+    "league": "EAST-B",
+    "round": "R17",
+    "date": "20260516",
+    "url": "https://web.gekisaka.jp/jscore/detail/?league=10&date=20260516"
+  },
+  {
+    "home_team": "甲府",
+    "away_team": "岐阜",
+    "home_goals": 2,
+    "away_goals": 2,
+    "total_goals": 4,
+    "has_pk": true,
+    "score_raw": "2 - 2",
+    "goals": [
+      {
+        "team": "甲",
+        "player": "オウンゴール",
+        "raw_time": "26分",
+        "parsed": [
+          1,
+          26,
+          false
+        ]
+      },
+      {
+        "team": "甲",
+        "player": "遠藤光",
+        "raw_time": "56分",
+        "parsed": [
+          2,
+          56,
+          false
+        ]
+      },
+      {
+        "team": "岐",
+        "player": "福田晃斗",
+        "raw_time": "37分",
+        "parsed": [
+          1,
+          37,
+          false
+        ]
+      },
+      {
+        "team": "岐",
+        "player": "羽田健人",
+        "raw_time": "78分",
+        "parsed": [
+          2,
+          78,
+          false
+        ]
+      }
+    ],
+    "league": "EAST-B",
+    "round": "R17",
+    "date": "20260516",
+    "url": "https://web.gekisaka.jp/jscore/detail/?league=10&date=20260516"
+  },
+  {
+    "home_team": "富山",
+    "away_team": "徳島",
+    "home_goals": 2,
+    "away_goals": 2,
+    "total_goals": 4,
+    "has_pk": true,
+    "score_raw": "2 - 2",
+    "goals": [
+      {
+        "team": "富",
+        "player": "布施谷翔",
+        "raw_time": "24分",
+        "parsed": [
+          1,
+          24,
+          false
+        ]
+      },
+      {
+        "team": "富",
+        "player": "坪井清志郎",
+        "raw_time": "45分+2",
+        "parsed": [
+          1,
+          45,
+          true
+        ]
+      },
+      {
+        "team": "徳",
+        "player": "ルーカス・バルセロス",
+        "raw_time": "15分",
+        "parsed": [
+          1,
+          15,
+          false
+        ]
+      },
+      {
+        "team": "徳",
+        "player": "梶谷政仁",
+        "raw_time": "71分",
+        "parsed": [
+          2,
+          71,
+          false
+        ]
+      }
+    ],
+    "league": "WEST-A",
+    "round": "R17",
+    "date": "20260517",
+    "url": "https://web.gekisaka.jp/jscore/detail/?league=11&date=20260517"
+  },
+  {
+    "home_team": "FC大阪",
+    "away_team": "金沢",
+    "home_goals": 1,
+    "away_goals": 1,
+    "total_goals": 2,
+    "has_pk": true,
+    "score_raw": "1 - 1",
+    "goals": [
+      {
+        "team": "F",
+        "player": "島田拓海",
+        "raw_time": "71分",
+        "parsed": [
+          2,
+          71,
+          false
+        ]
+      },
+      {
+        "team": "金",
+        "player": "ブワニカ啓太",
+        "raw_time": "45分",
+        "parsed": [
+          1,
+          45,
+          false
+        ]
+      }
+    ],
+    "league": "WEST-A",
+    "round": "R17",
+    "date": "20260517",
+    "url": "https://web.gekisaka.jp/jscore/detail/?league=11&date=20260517"
+  },
+  {
+    "home_team": "今治",
+    "away_team": "讃岐",
+    "home_goals": 1,
+    "away_goals": 2,
+    "total_goals": 3,
+    "has_pk": false,
+    "score_raw": "1 - 2",
+    "goals": [
+      {
+        "team": "今",
+        "player": "エジガル・ジュニオ",
+        "raw_time": "11分",
+        "parsed": [
+          1,
+          11,
+          false
+        ]
+      },
+      {
+        "team": "讃",
+        "player": "後藤優介",
+        "raw_time": "52分",
+        "parsed": [
+          2,
+          52,
+          false
+        ]
+      },
+      {
+        "team": "讃",
+        "player": "村上悠緋",
+        "raw_time": "74分",
+        "parsed": [
+          2,
+          74,
+          false
+        ]
+      }
+    ],
+    "league": "WEST-A",
+    "round": "R17",
+    "date": "20260517",
+    "url": "https://web.gekisaka.jp/jscore/detail/?league=11&date=20260517"
+  },
+  {
+    "home_team": "高知",
+    "away_team": "愛媛",
+    "home_goals": 0,
+    "away_goals": 1,
+    "total_goals": 1,
+    "has_pk": false,
+    "score_raw": "0 - 1",
+    "goals": [
+      {
+        "team": "愛",
+        "player": "田口裕也",
+        "raw_time": "13分",
+        "parsed": [
+          1,
+          13,
+          false
+        ]
+      }
+    ],
+    "league": "WEST-A",
+    "round": "R17",
+    "date": "20260517",
+    "url": "https://web.gekisaka.jp/jscore/detail/?league=11&date=20260517"
+  },
+  {
+    "home_team": "大分",
+    "away_team": "宮崎",
+    "home_goals": 1,
+    "away_goals": 2,
+    "total_goals": 3,
+    "has_pk": false,
+    "score_raw": "1 - 2",
+    "goals": [
+      {
+        "team": "大",
+        "player": "伊佐耕平",
+        "raw_time": "65分",
+        "parsed": [
+          2,
+          65,
+          false
+        ]
+      },
+      {
+        "team": "宮",
+        "player": "眞鍋旭輝",
+        "raw_time": "31分",
+        "parsed": [
+          1,
+          31,
+          false
+        ]
+      },
+      {
+        "team": "宮",
+        "player": "土信田悠生",
+        "raw_time": "78分",
+        "parsed": [
+          2,
+          78,
+          false
+        ]
+      }
+    ],
+    "league": "WEST-B",
+    "round": "R17",
+    "date": "20260517",
+    "url": "https://web.gekisaka.jp/jscore/detail/?league=12&date=20260517"
+  },
+  {
+    "home_team": "鹿児島",
+    "away_team": "熊本",
+    "home_goals": 2,
+    "away_goals": 1,
+    "total_goals": 3,
+    "has_pk": false,
+    "score_raw": "2 - 1",
+    "goals": [
+      {
+        "team": "鹿",
+        "player": "河村慶人",
+        "raw_time": "60分",
+        "parsed": [
+          2,
+          60,
+          false
+        ]
+      },
+      {
+        "team": "鹿",
+        "player": "広瀬健太",
+        "raw_time": "67分",
+        "parsed": [
+          2,
+          67,
+          false
+        ]
+      },
+      {
+        "team": "熊",
+        "player": "大本祐槻",
+        "raw_time": "57分",
+        "parsed": [
+          2,
+          57,
+          false
+        ]
+      }
+    ],
+    "league": "WEST-B",
+    "round": "R17",
+    "date": "20260517",
+    "url": "https://web.gekisaka.jp/jscore/detail/?league=12&date=20260517"
+  },
+  {
+    "home_team": "滋賀",
+    "away_team": "北九州",
+    "home_goals": 1,
+    "away_goals": 0,
+    "total_goals": 1,
+    "has_pk": false,
+    "score_raw": "1 - 0",
+    "goals": [
+      {
+        "team": "滋",
+        "player": "小野寺健也",
+        "raw_time": "90分+1",
+        "parsed": [
+          2,
+          90,
+          true
+        ]
+      }
+    ],
+    "league": "WEST-B",
+    "round": "R17",
+    "date": "20260517",
+    "url": "https://web.gekisaka.jp/jscore/detail/?league=12&date=20260517"
+  },
+  {
+    "home_team": "琉球",
+    "away_team": "鳥取",
+    "home_goals": 1,
+    "away_goals": 3,
+    "total_goals": 4,
+    "has_pk": false,
+    "score_raw": "1 - 3",
+    "goals": [
+      {
+        "team": "琉",
+        "player": "曽田一騎",
+        "raw_time": "8分",
+        "parsed": [
+          1,
+          8,
+          false
+        ]
+      },
+      {
+        "team": "鳥",
+        "player": "矢島慎也",
+        "raw_time": "21分",
+        "parsed": [
+          1,
+          21,
+          false
+        ]
+      },
+      {
+        "team": "鳥",
+        "player": "金浦真樹",
+        "raw_time": "42分",
+        "parsed": [
+          1,
+          42,
+          false
+        ]
+      },
+      {
+        "team": "鳥",
+        "player": "本保奏希",
+        "raw_time": "51分",
+        "parsed": [
+          2,
+          51,
+          false
+        ]
+      }
+    ],
+    "league": "WEST-B",
+    "round": "R17",
+    "date": "20260517",
+    "url": "https://web.gekisaka.jp/jscore/detail/?league=12&date=20260517"
+  }
+]

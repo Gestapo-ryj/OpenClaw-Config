@@ -1,0 +1,3262 @@
+{
+  "total_games": 248,
+  "valid_games": 87,
+  "wins": 64,
+  "losses": 23,
+  "win_rate": "73.6%",
+  "games": [
+    {
+      "name": "いわき vs 福島",
+      "round": "R2",
+      "league": "EAST-B",
+      "score": "3-1",
+      "all_goals": [
+        [
+          "い",
+          16
+        ],
+        [
+          "い",
+          50
+        ],
+        [
+          "福",
+          64
+        ],
+        [
+          "い",
+          88
+        ]
+      ],
+      "zone_goals": [
+        [
+          "い",
+          50
+        ]
+      ],
+      "zone_minutes": [
+        50
+      ],
+      "after_count": 2,
+      "after_minutes": [
+        64,
+        88
+      ],
+      "under15_win": false
+    },
+    {
+      "name": "磐田 vs 松本",
+      "round": "R3",
+      "league": "EAST-B",
+      "score": "1-2",
+      "all_goals": [
+        [
+          "松",
+          5
+        ],
+        [
+          "松",
+          48
+        ],
+        [
+          "磐",
+          67
+        ]
+      ],
+      "zone_goals": [
+        [
+          "松",
+          48
+        ]
+      ],
+      "zone_minutes": [
+        48
+      ],
+      "after_count": 1,
+      "after_minutes": [
+        67
+      ],
+      "under15_win": true
+    },
+    {
+      "name": "長野 vs 大宮",
+      "round": "R4",
+      "league": "EAST-B",
+      "score": "1-2",
+      "all_goals": [
+        [
+          "大",
+          49
+        ],
+        [
+          "大",
+          53
+        ],
+        [
+          "長",
+          78
+        ]
+      ],
+      "zone_goals": [
+        [
+          "大",
+          49
+        ],
+        [
+          "大",
+          53
+        ]
+      ],
+      "zone_minutes": [
+        49,
+        53
+      ],
+      "after_count": 1,
+      "after_minutes": [
+        78
+      ],
+      "under15_win": true
+    },
+    {
+      "name": "福島 vs 長野",
+      "round": "R5",
+      "league": "EAST-B",
+      "score": "4-2",
+      "all_goals": [
+        [
+          "長",
+          8
+        ],
+        [
+          "福",
+          10
+        ],
+        [
+          "福",
+          16
+        ],
+        [
+          "長",
+          37
+        ],
+        [
+          "福",
+          52
+        ],
+        [
+          "福",
+          61
+        ]
+      ],
+      "zone_goals": [
+        [
+          "福",
+          52
+        ]
+      ],
+      "zone_minutes": [
+        52
+      ],
+      "after_count": 1,
+      "after_minutes": [
+        61
+      ],
+      "under15_win": true
+    },
+    {
+      "name": "福島 vs 藤枝",
+      "round": "R7",
+      "league": "EAST-B",
+      "score": "3-3",
+      "all_goals": [
+        [
+          "藤",
+          11
+        ],
+        [
+          "藤",
+          14
+        ],
+        [
+          "藤",
+          36
+        ],
+        [
+          "福",
+          53
+        ],
+        [
+          "福",
+          57
+        ],
+        [
+          "福",
+          88
+        ]
+      ],
+      "zone_goals": [
+        [
+          "福",
+          53
+        ]
+      ],
+      "zone_minutes": [
+        53
+      ],
+      "after_count": 2,
+      "after_minutes": [
+        57,
+        88
+      ],
+      "under15_win": false
+    },
+    {
+      "name": "岐阜 vs 長野",
+      "round": "R8",
+      "league": "EAST-B",
+      "score": "5-1",
+      "all_goals": [
+        [
+          "岐",
+          6
+        ],
+        [
+          "岐",
+          45
+        ],
+        [
+          "岐",
+          75
+        ],
+        [
+          "岐",
+          78
+        ],
+        [
+          "岐",
+          86
+        ],
+        [
+          "長",
+          90
+        ]
+      ],
+      "zone_goals": [
+        [
+          "岐",
+          45
+        ]
+      ],
+      "zone_minutes": [
+        45
+      ],
+      "after_count": 4,
+      "after_minutes": [
+        75,
+        78,
+        86,
+        90
+      ],
+      "under15_win": false
+    },
+    {
+      "name": "福島 vs 松本",
+      "round": "R8",
+      "league": "EAST-B",
+      "score": "1-3",
+      "all_goals": [
+        [
+          "松",
+          33
+        ],
+        [
+          "松",
+          51
+        ],
+        [
+          "松",
+          55
+        ],
+        [
+          "福",
+          64
+        ]
+      ],
+      "zone_goals": [
+        [
+          "松",
+          51
+        ],
+        [
+          "松",
+          55
+        ]
+      ],
+      "zone_minutes": [
+        51,
+        55
+      ],
+      "after_count": 1,
+      "after_minutes": [
+        64
+      ],
+      "under15_win": true
+    },
+    {
+      "name": "いわき vs 磐田",
+      "round": "R8",
+      "league": "EAST-B",
+      "score": "1-0",
+      "all_goals": [
+        [
+          "い",
+          45
+        ]
+      ],
+      "zone_goals": [
+        [
+          "い",
+          45
+        ]
+      ],
+      "zone_minutes": [
+        45
+      ],
+      "after_count": 0,
+      "after_minutes": [],
+      "under15_win": true
+    },
+    {
+      "name": "松本 vs いわき",
+      "round": "R9",
+      "league": "EAST-B",
+      "score": "2-2",
+      "all_goals": [
+        [
+          "い",
+          27
+        ],
+        [
+          "松",
+          51
+        ],
+        [
+          "松",
+          90
+        ],
+        [
+          "い",
+          90
+        ]
+      ],
+      "zone_goals": [
+        [
+          "松",
+          51
+        ]
+      ],
+      "zone_minutes": [
+        51
+      ],
+      "after_count": 2,
+      "after_minutes": [
+        90,
+        90
+      ],
+      "under15_win": false
+    },
+    {
+      "name": "甲府 vs 札幌",
+      "round": "R10",
+      "league": "EAST-B",
+      "score": "2-1",
+      "all_goals": [
+        [
+          "札",
+          26
+        ],
+        [
+          "甲",
+          45
+        ],
+        [
+          "甲",
+          85
+        ]
+      ],
+      "zone_goals": [
+        [
+          "甲",
+          45
+        ]
+      ],
+      "zone_minutes": [
+        45
+      ],
+      "after_count": 1,
+      "after_minutes": [
+        85
+      ],
+      "under15_win": true
+    },
+    {
+      "name": "松本 vs 大宮",
+      "round": "R10",
+      "league": "EAST-B",
+      "score": "4-1",
+      "all_goals": [
+        [
+          "松",
+          16
+        ],
+        [
+          "大",
+          41
+        ],
+        [
+          "松",
+          42
+        ],
+        [
+          "松",
+          45
+        ],
+        [
+          "松",
+          57
+        ]
+      ],
+      "zone_goals": [
+        [
+          "松",
+          45
+        ]
+      ],
+      "zone_minutes": [
+        45
+      ],
+      "after_count": 1,
+      "after_minutes": [
+        57
+      ],
+      "under15_win": true
+    },
+    {
+      "name": "福島 vs 岐阜",
+      "round": "R11",
+      "league": "EAST-B",
+      "score": "1-2",
+      "all_goals": [
+        [
+          "岐",
+          41
+        ],
+        [
+          "福",
+          45
+        ],
+        [
+          "岐",
+          58
+        ]
+      ],
+      "zone_goals": [
+        [
+          "福",
+          45
+        ]
+      ],
+      "zone_minutes": [
+        45
+      ],
+      "after_count": 1,
+      "after_minutes": [
+        58
+      ],
+      "under15_win": true
+    },
+    {
+      "name": "松本 vs 甲府",
+      "round": "R13",
+      "league": "EAST-B",
+      "score": "0-1",
+      "all_goals": [
+        [
+          "甲",
+          47
+        ]
+      ],
+      "zone_goals": [
+        [
+          "甲",
+          47
+        ]
+      ],
+      "zone_minutes": [
+        47
+      ],
+      "after_count": 0,
+      "after_minutes": [],
+      "under15_win": true
+    },
+    {
+      "name": "札幌 vs 大宮",
+      "round": "R14",
+      "league": "EAST-B",
+      "score": "4-3",
+      "all_goals": [
+        [
+          "札",
+          11
+        ],
+        [
+          "札",
+          39
+        ],
+        [
+          "札",
+          44
+        ],
+        [
+          "大",
+          45
+        ],
+        [
+          "大",
+          47
+        ],
+        [
+          "大",
+          60
+        ],
+        [
+          "札",
+          90
+        ]
+      ],
+      "zone_goals": [
+        [
+          "大",
+          45
+        ],
+        [
+          "大",
+          47
+        ]
+      ],
+      "zone_minutes": [
+        45,
+        47
+      ],
+      "after_count": 2,
+      "after_minutes": [
+        60,
+        90
+      ],
+      "under15_win": false
+    },
+    {
+      "name": "長野 vs 岐阜",
+      "round": "R14",
+      "league": "EAST-B",
+      "score": "2-3",
+      "all_goals": [
+        [
+          "長",
+          31
+        ],
+        [
+          "岐",
+          49
+        ],
+        [
+          "岐",
+          81
+        ],
+        [
+          "長",
+          84
+        ],
+        [
+          "岐",
+          90
+        ]
+      ],
+      "zone_goals": [
+        [
+          "岐",
+          49
+        ]
+      ],
+      "zone_minutes": [
+        49
+      ],
+      "after_count": 3,
+      "after_minutes": [
+        81,
+        84,
+        90
+      ],
+      "under15_win": false
+    },
+    {
+      "name": "福島 vs 磐田",
+      "round": "R14",
+      "league": "EAST-B",
+      "score": "4-2",
+      "all_goals": [
+        [
+          "福",
+          20
+        ],
+        [
+          "磐",
+          30
+        ],
+        [
+          "福",
+          53
+        ],
+        [
+          "福",
+          71
+        ],
+        [
+          "福",
+          82
+        ],
+        [
+          "磐",
+          90
+        ]
+      ],
+      "zone_goals": [
+        [
+          "福",
+          53
+        ]
+      ],
+      "zone_minutes": [
+        53
+      ],
+      "after_count": 3,
+      "after_minutes": [
+        71,
+        82,
+        90
+      ],
+      "under15_win": false
+    },
+    {
+      "name": "今治 vs 金沢",
+      "round": "R1",
+      "league": "WEST-A",
+      "score": "0-0",
+      "all_goals": [
+        [
+          "高",
+          19
+        ],
+        [
+          "高",
+          20
+        ],
+        [
+          "富",
+          45
+        ],
+        [
+          "高",
+          84
+        ]
+      ],
+      "zone_goals": [
+        [
+          "富",
+          45
+        ]
+      ],
+      "zone_minutes": [
+        45
+      ],
+      "after_count": 1,
+      "after_minutes": [
+        84
+      ],
+      "under15_win": true
+    },
+    {
+      "name": "FC大阪 vs 高知",
+      "round": "R2",
+      "league": "WEST-A",
+      "score": "2-2",
+      "all_goals": [
+        [
+          "F",
+          10
+        ],
+        [
+          "高",
+          45
+        ],
+        [
+          "高",
+          56
+        ],
+        [
+          "F",
+          82
+        ]
+      ],
+      "zone_goals": [
+        [
+          "高",
+          45
+        ]
+      ],
+      "zone_minutes": [
+        45
+      ],
+      "after_count": 2,
+      "after_minutes": [
+        56,
+        82
+      ],
+      "under15_win": false
+    },
+    {
+      "name": "徳島 vs 新潟",
+      "round": "R2",
+      "league": "WEST-A",
+      "score": "4-0",
+      "all_goals": [
+        [
+          "徳",
+          5
+        ],
+        [
+          "徳",
+          40
+        ],
+        [
+          "徳",
+          52
+        ],
+        [
+          "徳",
+          72
+        ]
+      ],
+      "zone_goals": [
+        [
+          "徳",
+          52
+        ]
+      ],
+      "zone_minutes": [
+        52
+      ],
+      "after_count": 1,
+      "after_minutes": [
+        72
+      ],
+      "under15_win": true
+    },
+    {
+      "name": "愛媛 vs 金沢",
+      "round": "R2",
+      "league": "WEST-A",
+      "score": "2-2",
+      "all_goals": [
+        [
+          "金",
+          43
+        ],
+        [
+          "金",
+          46
+        ],
+        [
+          "愛",
+          60
+        ],
+        [
+          "愛",
+          90
+        ]
+      ],
+      "zone_goals": [
+        [
+          "金",
+          46
+        ]
+      ],
+      "zone_minutes": [
+        46
+      ],
+      "after_count": 2,
+      "after_minutes": [
+        60,
+        90
+      ],
+      "under15_win": false
+    },
+    {
+      "name": "奈良 vs 愛媛",
+      "round": "R3",
+      "league": "WEST-A",
+      "score": "2-2",
+      "all_goals": [
+        [
+          "愛",
+          4
+        ],
+        [
+          "奈",
+          14
+        ],
+        [
+          "奈",
+          49
+        ],
+        [
+          "愛",
+          72
+        ]
+      ],
+      "zone_goals": [
+        [
+          "奈",
+          49
+        ]
+      ],
+      "zone_minutes": [
+        49
+      ],
+      "after_count": 1,
+      "after_minutes": [
+        72
+      ],
+      "under15_win": true
+    },
+    {
+      "name": "讃岐 vs 新潟",
+      "round": "R3",
+      "league": "WEST-A",
+      "score": "0-3",
+      "all_goals": [
+        [
+          "新",
+          33
+        ],
+        [
+          "新",
+          48
+        ],
+        [
+          "新",
+          83
+        ]
+      ],
+      "zone_goals": [
+        [
+          "新",
+          48
+        ]
+      ],
+      "zone_minutes": [
+        48
+      ],
+      "after_count": 1,
+      "after_minutes": [
+        83
+      ],
+      "under15_win": true
+    },
+    {
+      "name": "今治 vs FC大阪",
+      "round": "R3",
+      "league": "WEST-A",
+      "score": "2-0",
+      "all_goals": [
+        [
+          "今",
+          32
+        ],
+        [
+          "今",
+          50
+        ]
+      ],
+      "zone_goals": [
+        [
+          "今",
+          50
+        ]
+      ],
+      "zone_minutes": [
+        50
+      ],
+      "after_count": 0,
+      "after_minutes": [],
+      "under15_win": true
+    },
+    {
+      "name": "高知 vs 金沢",
+      "round": "R3",
+      "league": "WEST-A",
+      "score": "3-2",
+      "all_goals": [
+        [
+          "高",
+          6
+        ],
+        [
+          "高",
+          13
+        ],
+        [
+          "高",
+          21
+        ],
+        [
+          "金",
+          55
+        ],
+        [
+          "金",
+          90
+        ]
+      ],
+      "zone_goals": [
+        [
+          "金",
+          55
+        ]
+      ],
+      "zone_minutes": [
+        55
+      ],
+      "after_count": 1,
+      "after_minutes": [
+        90
+      ],
+      "under15_win": true
+    },
+    {
+      "name": "富山 vs 愛媛",
+      "round": "R5",
+      "league": "WEST-A",
+      "score": "2-2",
+      "all_goals": [
+        [
+          "愛",
+          19
+        ],
+        [
+          "富",
+          54
+        ],
+        [
+          "愛",
+          57
+        ],
+        [
+          "富",
+          66
+        ]
+      ],
+      "zone_goals": [
+        [
+          "富",
+          54
+        ]
+      ],
+      "zone_minutes": [
+        54
+      ],
+      "after_count": 2,
+      "after_minutes": [
+        57,
+        66
+      ],
+      "under15_win": false
+    },
+    {
+      "name": "富山 vs 金沢",
+      "round": "R6",
+      "league": "WEST-A",
+      "score": "0-2",
+      "all_goals": [
+        [
+          "金",
+          51
+        ],
+        [
+          "金",
+          71
+        ]
+      ],
+      "zone_goals": [
+        [
+          "金",
+          51
+        ]
+      ],
+      "zone_minutes": [
+        51
+      ],
+      "after_count": 1,
+      "after_minutes": [
+        71
+      ],
+      "under15_win": true
+    },
+    {
+      "name": "金沢 vs FC大阪",
+      "round": "R7",
+      "league": "WEST-A",
+      "score": "0-0",
+      "all_goals": [
+        [
+          "讃",
+          7
+        ],
+        [
+          "奈",
+          18
+        ],
+        [
+          "讃",
+          24
+        ],
+        [
+          "讃",
+          52
+        ]
+      ],
+      "zone_goals": [
+        [
+          "讃",
+          52
+        ]
+      ],
+      "zone_minutes": [
+        52
+      ],
+      "after_count": 0,
+      "after_minutes": [],
+      "under15_win": true
+    },
+    {
+      "name": "愛媛 vs 高知",
+      "round": "R7",
+      "league": "WEST-A",
+      "score": "1-0",
+      "all_goals": [
+        [
+          "今",
+          25
+        ],
+        [
+          "今",
+          48
+        ],
+        [
+          "徳",
+          75
+        ]
+      ],
+      "zone_goals": [
+        [
+          "今",
+          48
+        ]
+      ],
+      "zone_minutes": [
+        48
+      ],
+      "after_count": 1,
+      "after_minutes": [
+        75
+      ],
+      "under15_win": true
+    },
+    {
+      "name": "奈良 vs 金沢",
+      "round": "R8",
+      "league": "WEST-A",
+      "score": "5-1",
+      "all_goals": [
+        [
+          "奈",
+          15
+        ],
+        [
+          "奈",
+          40
+        ],
+        [
+          "奈",
+          49
+        ],
+        [
+          "奈",
+          70
+        ],
+        [
+          "金",
+          80
+        ],
+        [
+          "奈",
+          89
+        ]
+      ],
+      "zone_goals": [
+        [
+          "奈",
+          49
+        ]
+      ],
+      "zone_minutes": [
+        49
+      ],
+      "after_count": 3,
+      "after_minutes": [
+        70,
+        80,
+        89
+      ],
+      "under15_win": false
+    },
+    {
+      "name": "富山 vs 奈良",
+      "round": "R9",
+      "league": "WEST-A",
+      "score": "5-2",
+      "all_goals": [
+        [
+          "富",
+          7
+        ],
+        [
+          "富",
+          10
+        ],
+        [
+          "富",
+          12
+        ],
+        [
+          "奈",
+          18
+        ],
+        [
+          "奈",
+          47
+        ],
+        [
+          "富",
+          55
+        ],
+        [
+          "富",
+          90
+        ]
+      ],
+      "zone_goals": [
+        [
+          "奈",
+          47
+        ],
+        [
+          "富",
+          55
+        ]
+      ],
+      "zone_minutes": [
+        47,
+        55
+      ],
+      "after_count": 1,
+      "after_minutes": [
+        90
+      ],
+      "under15_win": true
+    },
+    {
+      "name": "金沢 vs 今治",
+      "round": "R10",
+      "league": "WEST-A",
+      "score": "0-0",
+      "all_goals": [
+        [
+          "徳",
+          28
+        ],
+        [
+          "徳",
+          30
+        ],
+        [
+          "徳",
+          38
+        ],
+        [
+          "徳",
+          45
+        ],
+        [
+          "徳",
+          48
+        ]
+      ],
+      "zone_goals": [
+        [
+          "徳",
+          45
+        ],
+        [
+          "徳",
+          48
+        ]
+      ],
+      "zone_minutes": [
+        45,
+        48
+      ],
+      "after_count": 0,
+      "after_minutes": [],
+      "under15_win": true
+    },
+    {
+      "name": "讃岐 vs 徳島",
+      "round": "R10",
+      "league": "WEST-A",
+      "score": "0-5",
+      "all_goals": [
+        [
+          "愛",
+          18
+        ],
+        [
+          "愛",
+          30
+        ],
+        [
+          "愛",
+          53
+        ],
+        [
+          "奈",
+          58
+        ],
+        [
+          "奈",
+          72
+        ]
+      ],
+      "zone_goals": [
+        [
+          "愛",
+          53
+        ]
+      ],
+      "zone_minutes": [
+        53
+      ],
+      "after_count": 2,
+      "after_minutes": [
+        58,
+        72
+      ],
+      "under15_win": false
+    },
+    {
+      "name": "徳島 vs 金沢",
+      "round": "R11",
+      "league": "WEST-A",
+      "score": "2-1",
+      "all_goals": [
+        [
+          "金",
+          29
+        ],
+        [
+          "徳",
+          38
+        ],
+        [
+          "徳",
+          45
+        ]
+      ],
+      "zone_goals": [
+        [
+          "徳",
+          45
+        ]
+      ],
+      "zone_minutes": [
+        45
+      ],
+      "after_count": 0,
+      "after_minutes": [],
+      "under15_win": true
+    },
+    {
+      "name": "富山 vs 高知",
+      "round": "R11",
+      "league": "WEST-A",
+      "score": "4-0",
+      "all_goals": [
+        [
+          "富",
+          42
+        ],
+        [
+          "富",
+          45
+        ],
+        [
+          "富",
+          79
+        ],
+        [
+          "富",
+          81
+        ]
+      ],
+      "zone_goals": [
+        [
+          "富",
+          45
+        ]
+      ],
+      "zone_minutes": [
+        45
+      ],
+      "after_count": 2,
+      "after_minutes": [
+        79,
+        81
+      ],
+      "under15_win": false
+    },
+    {
+      "name": "新潟 vs FC大阪",
+      "round": "R12",
+      "league": "WEST-A",
+      "score": "1-0",
+      "all_goals": [
+        [
+          "新",
+          55
+        ]
+      ],
+      "zone_goals": [
+        [
+          "新",
+          55
+        ]
+      ],
+      "zone_minutes": [
+        55
+      ],
+      "after_count": 0,
+      "after_minutes": [],
+      "under15_win": true
+    },
+    {
+      "name": "今治 vs 富山",
+      "round": "R12",
+      "league": "WEST-A",
+      "score": "1-2",
+      "all_goals": [
+        [
+          "富",
+          3
+        ],
+        [
+          "富",
+          45
+        ],
+        [
+          "今",
+          84
+        ]
+      ],
+      "zone_goals": [
+        [
+          "富",
+          45
+        ]
+      ],
+      "zone_minutes": [
+        45
+      ],
+      "after_count": 1,
+      "after_minutes": [
+        84
+      ],
+      "under15_win": true
+    },
+    {
+      "name": "高知 vs 徳島",
+      "round": "R12",
+      "league": "WEST-A",
+      "score": "2-1",
+      "all_goals": [
+        [
+          "高",
+          46
+        ],
+        [
+          "徳",
+          49
+        ],
+        [
+          "高",
+          66
+        ]
+      ],
+      "zone_goals": [
+        [
+          "高",
+          46
+        ],
+        [
+          "徳",
+          49
+        ]
+      ],
+      "zone_minutes": [
+        46,
+        49
+      ],
+      "after_count": 1,
+      "after_minutes": [
+        66
+      ],
+      "under15_win": true
+    },
+    {
+      "name": "愛媛 vs 讃岐",
+      "round": "R12",
+      "league": "WEST-A",
+      "score": "3-0",
+      "all_goals": [
+        [
+          "愛",
+          54
+        ],
+        [
+          "愛",
+          61
+        ],
+        [
+          "愛",
+          90
+        ]
+      ],
+      "zone_goals": [
+        [
+          "愛",
+          54
+        ]
+      ],
+      "zone_minutes": [
+        54
+      ],
+      "after_count": 2,
+      "after_minutes": [
+        61,
+        90
+      ],
+      "under15_win": false
+    },
+    {
+      "name": "徳島 vs 愛媛",
+      "round": "R13",
+      "league": "WEST-A",
+      "score": "0-6",
+      "all_goals": [
+        [
+          "愛",
+          27
+        ],
+        [
+          "愛",
+          38
+        ],
+        [
+          "愛",
+          48
+        ],
+        [
+          "愛",
+          71
+        ],
+        [
+          "愛",
+          72
+        ],
+        [
+          "愛",
+          86
+        ]
+      ],
+      "zone_goals": [
+        [
+          "愛",
+          48
+        ]
+      ],
+      "zone_minutes": [
+        48
+      ],
+      "after_count": 3,
+      "after_minutes": [
+        71,
+        72,
+        86
+      ],
+      "under15_win": false
+    },
+    {
+      "name": "新潟 vs 讃岐",
+      "round": "R13",
+      "league": "WEST-A",
+      "score": "2-1",
+      "all_goals": [
+        [
+          "新",
+          45
+        ],
+        [
+          "新",
+          61
+        ],
+        [
+          "讃",
+          68
+        ]
+      ],
+      "zone_goals": [
+        [
+          "新",
+          45
+        ]
+      ],
+      "zone_minutes": [
+        45
+      ],
+      "after_count": 2,
+      "after_minutes": [
+        61,
+        68
+      ],
+      "under15_win": false
+    },
+    {
+      "name": "金沢 vs 新潟",
+      "round": "R14",
+      "league": "WEST-A",
+      "score": "1-1",
+      "all_goals": [
+        [
+          "金",
+          45
+        ],
+        [
+          "新",
+          90
+        ]
+      ],
+      "zone_goals": [
+        [
+          "金",
+          45
+        ]
+      ],
+      "zone_minutes": [
+        45
+      ],
+      "after_count": 1,
+      "after_minutes": [
+        90
+      ],
+      "under15_win": true
+    },
+    {
+      "name": "徳島 vs 奈良",
+      "round": "R14",
+      "league": "WEST-A",
+      "score": "1-2",
+      "all_goals": [
+        [
+          "奈",
+          44
+        ],
+        [
+          "徳",
+          53
+        ],
+        [
+          "奈",
+          72
+        ]
+      ],
+      "zone_goals": [
+        [
+          "徳",
+          53
+        ]
+      ],
+      "zone_minutes": [
+        53
+      ],
+      "after_count": 1,
+      "after_minutes": [
+        72
+      ],
+      "under15_win": true
+    },
+    {
+      "name": "宮崎 vs 鳥取",
+      "round": "R2",
+      "league": "WEST-B",
+      "score": "3-1",
+      "all_goals": [
+        [
+          "宮",
+          10
+        ],
+        [
+          "宮",
+          31
+        ],
+        [
+          "宮",
+          49
+        ],
+        [
+          "鳥",
+          86
+        ]
+      ],
+      "zone_goals": [
+        [
+          "宮",
+          49
+        ]
+      ],
+      "zone_minutes": [
+        49
+      ],
+      "after_count": 1,
+      "after_minutes": [
+        86
+      ],
+      "under15_win": true
+    },
+    {
+      "name": "北九州 vs 滋賀",
+      "round": "R4",
+      "league": "WEST-B",
+      "score": "1-2",
+      "all_goals": [
+        [
+          "滋",
+          20
+        ],
+        [
+          "滋",
+          52
+        ],
+        [
+          "北",
+          65
+        ]
+      ],
+      "zone_goals": [
+        [
+          "滋",
+          52
+        ]
+      ],
+      "zone_minutes": [
+        52
+      ],
+      "after_count": 1,
+      "after_minutes": [
+        65
+      ],
+      "under15_win": true
+    },
+    {
+      "name": "鳥栖 vs 鹿児島",
+      "round": "R4",
+      "league": "WEST-B",
+      "score": "0-1",
+      "all_goals": [
+        [
+          "鹿",
+          51
+        ]
+      ],
+      "zone_goals": [
+        [
+          "鹿",
+          51
+        ]
+      ],
+      "zone_minutes": [
+        51
+      ],
+      "after_count": 0,
+      "after_minutes": [],
+      "under15_win": true
+    },
+    {
+      "name": "山口 vs 鳥取",
+      "round": "R4",
+      "league": "WEST-B",
+      "score": "0-0",
+      "all_goals": [
+        [
+          "熊",
+          45
+        ],
+        [
+          "熊",
+          47
+        ],
+        [
+          "熊",
+          77
+        ],
+        [
+          "大",
+          90
+        ]
+      ],
+      "zone_goals": [
+        [
+          "熊",
+          45
+        ],
+        [
+          "熊",
+          47
+        ]
+      ],
+      "zone_minutes": [
+        45,
+        47
+      ],
+      "after_count": 2,
+      "after_minutes": [
+        77,
+        90
+      ],
+      "under15_win": false
+    },
+    {
+      "name": "山口 vs 鳥栖",
+      "round": "R5",
+      "league": "WEST-B",
+      "score": "2-0",
+      "all_goals": [
+        [
+          "山",
+          50
+        ],
+        [
+          "山",
+          53
+        ]
+      ],
+      "zone_goals": [
+        [
+          "山",
+          50
+        ],
+        [
+          "山",
+          53
+        ]
+      ],
+      "zone_minutes": [
+        50,
+        53
+      ],
+      "after_count": 0,
+      "after_minutes": [],
+      "under15_win": true
+    },
+    {
+      "name": "北九州 vs 宮崎",
+      "round": "R5",
+      "league": "WEST-B",
+      "score": "2-3",
+      "all_goals": [
+        [
+          "北",
+          6
+        ],
+        [
+          "宮",
+          35
+        ],
+        [
+          "宮",
+          38
+        ],
+        [
+          "宮",
+          45
+        ],
+        [
+          "北",
+          80
+        ]
+      ],
+      "zone_goals": [
+        [
+          "宮",
+          45
+        ]
+      ],
+      "zone_minutes": [
+        45
+      ],
+      "after_count": 1,
+      "after_minutes": [
+        80
+      ],
+      "under15_win": true
+    },
+    {
+      "name": "宮崎 vs 大分",
+      "round": "R6",
+      "league": "WEST-B",
+      "score": "1-0",
+      "all_goals": [
+        [
+          "宮",
+          45
+        ]
+      ],
+      "zone_goals": [
+        [
+          "宮",
+          45
+        ]
+      ],
+      "zone_minutes": [
+        45
+      ],
+      "after_count": 0,
+      "after_minutes": [],
+      "under15_win": true
+    },
+    {
+      "name": "琉球 vs 山口",
+      "round": "R6",
+      "league": "WEST-B",
+      "score": "1-1",
+      "all_goals": [
+        [
+          "琉",
+          46
+        ],
+        [
+          "山",
+          50
+        ]
+      ],
+      "zone_goals": [
+        [
+          "琉",
+          46
+        ],
+        [
+          "山",
+          50
+        ]
+      ],
+      "zone_minutes": [
+        46,
+        50
+      ],
+      "after_count": 0,
+      "after_minutes": [],
+      "under15_win": true
+    },
+    {
+      "name": "大分 vs 琉球",
+      "round": "R7",
+      "league": "WEST-B",
+      "score": "2-3",
+      "all_goals": [
+        [
+          "大",
+          13
+        ],
+        [
+          "琉",
+          31
+        ],
+        [
+          "琉",
+          41
+        ],
+        [
+          "琉",
+          51
+        ],
+        [
+          "大",
+          77
+        ]
+      ],
+      "zone_goals": [
+        [
+          "琉",
+          51
+        ]
+      ],
+      "zone_minutes": [
+        51
+      ],
+      "after_count": 1,
+      "after_minutes": [
+        77
+      ],
+      "under15_win": true
+    },
+    {
+      "name": "琉球 vs 熊本",
+      "round": "R9",
+      "league": "WEST-B",
+      "score": "0-1",
+      "all_goals": [
+        [
+          "熊",
+          50
+        ]
+      ],
+      "zone_goals": [
+        [
+          "熊",
+          50
+        ]
+      ],
+      "zone_minutes": [
+        50
+      ],
+      "after_count": 0,
+      "after_minutes": [],
+      "under15_win": true
+    },
+    {
+      "name": "滋賀 vs 琉球",
+      "round": "R10",
+      "league": "WEST-B",
+      "score": "2-1",
+      "all_goals": [
+        [
+          "滋",
+          20
+        ],
+        [
+          "滋",
+          49
+        ],
+        [
+          "琉",
+          52
+        ]
+      ],
+      "zone_goals": [
+        [
+          "滋",
+          49
+        ],
+        [
+          "琉",
+          52
+        ]
+      ],
+      "zone_minutes": [
+        49,
+        52
+      ],
+      "after_count": 0,
+      "after_minutes": [],
+      "under15_win": true
+    },
+    {
+      "name": "熊本 vs 宮崎",
+      "round": "R10",
+      "league": "WEST-B",
+      "score": "0-5",
+      "all_goals": [
+        [
+          "宮",
+          23
+        ],
+        [
+          "宮",
+          49
+        ],
+        [
+          "宮",
+          67
+        ],
+        [
+          "宮",
+          79
+        ],
+        [
+          "宮",
+          88
+        ]
+      ],
+      "zone_goals": [
+        [
+          "宮",
+          49
+        ]
+      ],
+      "zone_minutes": [
+        49
+      ],
+      "after_count": 3,
+      "after_minutes": [
+        67,
+        79,
+        88
+      ],
+      "under15_win": false
+    },
+    {
+      "name": "滋賀 vs 大分",
+      "round": "R11",
+      "league": "WEST-B",
+      "score": "0-3",
+      "all_goals": [
+        [
+          "大",
+          14
+        ],
+        [
+          "大",
+          33
+        ],
+        [
+          "大",
+          48
+        ]
+      ],
+      "zone_goals": [
+        [
+          "大",
+          48
+        ]
+      ],
+      "zone_minutes": [
+        48
+      ],
+      "after_count": 0,
+      "after_minutes": [],
+      "under15_win": true
+    },
+    {
+      "name": "熊本 vs 鳥栖",
+      "round": "R11",
+      "league": "WEST-B",
+      "score": "0-2",
+      "all_goals": [
+        [
+          "鳥",
+          45
+        ],
+        [
+          "鳥",
+          60
+        ]
+      ],
+      "zone_goals": [
+        [
+          "鳥",
+          45
+        ]
+      ],
+      "zone_minutes": [
+        45
+      ],
+      "after_count": 1,
+      "after_minutes": [
+        60
+      ],
+      "under15_win": true
+    },
+    {
+      "name": "熊本 vs 滋賀",
+      "round": "R13",
+      "league": "WEST-B",
+      "score": "2-0",
+      "all_goals": [
+        [
+          "熊",
+          53
+        ],
+        [
+          "熊",
+          72
+        ]
+      ],
+      "zone_goals": [
+        [
+          "熊",
+          53
+        ]
+      ],
+      "zone_minutes": [
+        53
+      ],
+      "after_count": 1,
+      "after_minutes": [
+        72
+      ],
+      "under15_win": true
+    },
+    {
+      "name": "滋賀 vs 鹿児島",
+      "round": "R14",
+      "league": "WEST-B",
+      "score": "1-0",
+      "all_goals": [
+        [
+          "滋",
+          48
+        ]
+      ],
+      "zone_goals": [
+        [
+          "滋",
+          48
+        ]
+      ],
+      "zone_minutes": [
+        48
+      ],
+      "after_count": 0,
+      "after_minutes": [],
+      "under15_win": true
+    },
+    {
+      "name": "栃木C vs 仙台",
+      "round": "R1",
+      "league": "EAST-A",
+      "score": "1-4",
+      "all_goals": [
+        [
+          "仙",
+          11
+        ],
+        [
+          "仙",
+          34
+        ],
+        [
+          "栃",
+          47
+        ],
+        [
+          "仙",
+          50
+        ],
+        [
+          "仙",
+          52
+        ]
+      ],
+      "zone_goals": [
+        [
+          "栃",
+          47
+        ],
+        [
+          "仙",
+          50
+        ],
+        [
+          "仙",
+          52
+        ]
+      ],
+      "zone_minutes": [
+        47,
+        50,
+        52
+      ],
+      "after_count": 0,
+      "after_minutes": [],
+      "under15_win": true
+    },
+    {
+      "name": "湘南 vs 秋田",
+      "round": "R1",
+      "league": "EAST-A",
+      "score": "1-2",
+      "all_goals": [
+        [
+          "秋",
+          28
+        ],
+        [
+          "湘",
+          55
+        ],
+        [
+          "秋",
+          71
+        ]
+      ],
+      "zone_goals": [
+        [
+          "湘",
+          55
+        ]
+      ],
+      "zone_minutes": [
+        55
+      ],
+      "after_count": 1,
+      "after_minutes": [
+        71
+      ],
+      "under15_win": true
+    },
+    {
+      "name": "湘南 vs 相模原",
+      "round": "R2",
+      "league": "EAST-A",
+      "score": "4-0",
+      "all_goals": [
+        [
+          "湘",
+          15
+        ],
+        [
+          "湘",
+          48
+        ],
+        [
+          "湘",
+          66
+        ],
+        [
+          "湘",
+          90
+        ]
+      ],
+      "zone_goals": [
+        [
+          "湘",
+          48
+        ]
+      ],
+      "zone_minutes": [
+        48
+      ],
+      "after_count": 2,
+      "after_minutes": [
+        66,
+        90
+      ],
+      "under15_win": false
+    },
+    {
+      "name": "栃木SC vs 山形",
+      "round": "R2",
+      "league": "EAST-A",
+      "score": "1-2",
+      "all_goals": [
+        [
+          "山",
+          51
+        ],
+        [
+          "栃",
+          55
+        ],
+        [
+          "山",
+          88
+        ]
+      ],
+      "zone_goals": [
+        [
+          "山",
+          51
+        ],
+        [
+          "栃",
+          55
+        ]
+      ],
+      "zone_minutes": [
+        51,
+        55
+      ],
+      "after_count": 1,
+      "after_minutes": [
+        88
+      ],
+      "under15_win": true
+    },
+    {
+      "name": "栃木C vs 秋田",
+      "round": "R2",
+      "league": "EAST-A",
+      "score": "0-1",
+      "all_goals": [
+        [
+          "秋",
+          46
+        ]
+      ],
+      "zone_goals": [
+        [
+          "秋",
+          46
+        ]
+      ],
+      "zone_minutes": [
+        46
+      ],
+      "after_count": 0,
+      "after_minutes": [],
+      "under15_win": true
+    },
+    {
+      "name": "横浜FC vs 栃木C",
+      "round": "R3",
+      "league": "EAST-A",
+      "score": "5-1",
+      "all_goals": [
+        [
+          "栃",
+          15
+        ],
+        [
+          "横",
+          32
+        ],
+        [
+          "横",
+          34
+        ],
+        [
+          "横",
+          47
+        ],
+        [
+          "横",
+          52
+        ],
+        [
+          "横",
+          90
+        ]
+      ],
+      "zone_goals": [
+        [
+          "横",
+          47
+        ],
+        [
+          "横",
+          52
+        ]
+      ],
+      "zone_minutes": [
+        47,
+        52
+      ],
+      "after_count": 1,
+      "after_minutes": [
+        90
+      ],
+      "under15_win": true
+    },
+    {
+      "name": "仙台 vs 八戸",
+      "round": "R4",
+      "league": "EAST-A",
+      "score": "0-0",
+      "all_goals": [
+        [
+          "湘",
+          12
+        ],
+        [
+          "湘",
+          43
+        ],
+        [
+          "湘",
+          50
+        ],
+        [
+          "栃",
+          76
+        ]
+      ],
+      "zone_goals": [
+        [
+          "湘",
+          50
+        ]
+      ],
+      "zone_minutes": [
+        50
+      ],
+      "after_count": 1,
+      "after_minutes": [
+        76
+      ],
+      "under15_win": true
+    },
+    {
+      "name": "栃木C vs 湘南",
+      "round": "R4",
+      "league": "EAST-A",
+      "score": "1-3",
+      "all_goals": [
+        [
+          "群",
+          6
+        ],
+        [
+          "群",
+          35
+        ],
+        [
+          "群",
+          45
+        ],
+        [
+          "秋",
+          51
+        ],
+        [
+          "秋",
+          83
+        ]
+      ],
+      "zone_goals": [
+        [
+          "群",
+          45
+        ],
+        [
+          "秋",
+          51
+        ]
+      ],
+      "zone_minutes": [
+        45,
+        51
+      ],
+      "after_count": 1,
+      "after_minutes": [
+        83
+      ],
+      "under15_win": true
+    },
+    {
+      "name": "栃木SC vs 横浜FC",
+      "round": "R4",
+      "league": "EAST-A",
+      "score": "4-0",
+      "all_goals": [
+        [
+          "栃",
+          42
+        ],
+        [
+          "栃",
+          51
+        ],
+        [
+          "栃",
+          53
+        ],
+        [
+          "栃",
+          86
+        ]
+      ],
+      "zone_goals": [
+        [
+          "栃",
+          51
+        ],
+        [
+          "栃",
+          53
+        ]
+      ],
+      "zone_minutes": [
+        51,
+        53
+      ],
+      "after_count": 1,
+      "after_minutes": [
+        86
+      ],
+      "under15_win": true
+    },
+    {
+      "name": "相模原 vs 山形",
+      "round": "R4",
+      "league": "EAST-A",
+      "score": "2-1",
+      "all_goals": [
+        [
+          "相",
+          12
+        ],
+        [
+          "山",
+          48
+        ],
+        [
+          "相",
+          79
+        ]
+      ],
+      "zone_goals": [
+        [
+          "山",
+          48
+        ]
+      ],
+      "zone_minutes": [
+        48
+      ],
+      "after_count": 1,
+      "after_minutes": [
+        79
+      ],
+      "under15_win": true
+    },
+    {
+      "name": "相模原 vs 栃木SC",
+      "round": "R5",
+      "league": "EAST-A",
+      "score": "4-0",
+      "all_goals": [
+        [
+          "相",
+          37
+        ],
+        [
+          "相",
+          45
+        ],
+        [
+          "相",
+          49
+        ],
+        [
+          "相",
+          59
+        ]
+      ],
+      "zone_goals": [
+        [
+          "相",
+          45
+        ],
+        [
+          "相",
+          49
+        ]
+      ],
+      "zone_minutes": [
+        45,
+        49
+      ],
+      "after_count": 1,
+      "after_minutes": [
+        59
+      ],
+      "under15_win": true
+    },
+    {
+      "name": "横浜FC vs 群馬",
+      "round": "R6",
+      "league": "EAST-A",
+      "score": "3-0",
+      "all_goals": [
+        [
+          "横",
+          26
+        ],
+        [
+          "横",
+          42
+        ],
+        [
+          "横",
+          54
+        ]
+      ],
+      "zone_goals": [
+        [
+          "横",
+          54
+        ]
+      ],
+      "zone_minutes": [
+        54
+      ],
+      "after_count": 0,
+      "after_minutes": [],
+      "under15_win": true
+    },
+    {
+      "name": "相模原 vs 横浜FC",
+      "round": "R7",
+      "league": "EAST-A",
+      "score": "2-4",
+      "all_goals": [
+        [
+          "相",
+          15
+        ],
+        [
+          "相",
+          41
+        ],
+        [
+          "横",
+          48
+        ],
+        [
+          "横",
+          54
+        ],
+        [
+          "横",
+          90
+        ],
+        [
+          "横",
+          90
+        ]
+      ],
+      "zone_goals": [
+        [
+          "横",
+          48
+        ],
+        [
+          "横",
+          54
+        ]
+      ],
+      "zone_minutes": [
+        48,
+        54
+      ],
+      "after_count": 2,
+      "after_minutes": [
+        90,
+        90
+      ],
+      "under15_win": false
+    },
+    {
+      "name": "栃木SC vs 栃木C",
+      "round": "R7",
+      "league": "EAST-A",
+      "score": "3-2",
+      "all_goals": [
+        [
+          "S",
+          23
+        ],
+        [
+          "S",
+          40
+        ],
+        [
+          "S",
+          50
+        ],
+        [
+          "C",
+          53
+        ],
+        [
+          "C",
+          75
+        ]
+      ],
+      "zone_goals": [
+        [
+          "S",
+          50
+        ],
+        [
+          "C",
+          53
+        ]
+      ],
+      "zone_minutes": [
+        50,
+        53
+      ],
+      "after_count": 1,
+      "after_minutes": [
+        75
+      ],
+      "under15_win": true
+    },
+    {
+      "name": "仙台 vs 群馬",
+      "round": "R9",
+      "league": "EAST-A",
+      "score": "2-2",
+      "all_goals": [
+        [
+          "群",
+          20
+        ],
+        [
+          "仙",
+          31
+        ],
+        [
+          "仙",
+          52
+        ],
+        [
+          "群",
+          90
+        ]
+      ],
+      "zone_goals": [
+        [
+          "仙",
+          52
+        ]
+      ],
+      "zone_minutes": [
+        52
+      ],
+      "after_count": 1,
+      "after_minutes": [
+        90
+      ],
+      "under15_win": true
+    },
+    {
+      "name": "横浜FC vs 秋田",
+      "round": "R9",
+      "league": "EAST-A",
+      "score": "1-2",
+      "all_goals": [
+        [
+          "栃",
+          42
+        ],
+        [
+          "湘",
+          48
+        ]
+      ],
+      "zone_goals": [
+        [
+          "湘",
+          48
+        ]
+      ],
+      "zone_minutes": [
+        48
+      ],
+      "after_count": 0,
+      "after_minutes": [],
+      "under15_win": true
+    },
+    {
+      "name": "栃木SC vs 群馬",
+      "round": "R10",
+      "league": "EAST-A",
+      "score": "5-1",
+      "all_goals": [
+        [
+          "栃",
+          18
+        ],
+        [
+          "群",
+          29
+        ],
+        [
+          "栃",
+          35
+        ],
+        [
+          "栃",
+          39
+        ],
+        [
+          "栃",
+          42
+        ],
+        [
+          "栃",
+          54
+        ]
+      ],
+      "zone_goals": [
+        [
+          "栃",
+          54
+        ]
+      ],
+      "zone_minutes": [
+        54
+      ],
+      "after_count": 0,
+      "after_minutes": [],
+      "under15_win": true
+    },
+    {
+      "name": "栃木C vs 八戸",
+      "round": "R10",
+      "league": "EAST-A",
+      "score": "2-4",
+      "all_goals": [
+        [
+          "八",
+          4
+        ],
+        [
+          "栃",
+          9
+        ],
+        [
+          "栃",
+          15
+        ],
+        [
+          "八",
+          38
+        ],
+        [
+          "八",
+          45
+        ],
+        [
+          "八",
+          47
+        ]
+      ],
+      "zone_goals": [
+        [
+          "八",
+          45
+        ],
+        [
+          "八",
+          47
+        ]
+      ],
+      "zone_minutes": [
+        45,
+        47
+      ],
+      "after_count": 0,
+      "after_minutes": [],
+      "under15_win": true
+    },
+    {
+      "name": "相模原 vs 仙台",
+      "round": "R10",
+      "league": "EAST-A",
+      "score": "0-3",
+      "all_goals": [
+        [
+          "仙",
+          45
+        ],
+        [
+          "仙",
+          86
+        ],
+        [
+          "仙",
+          90
+        ]
+      ],
+      "zone_goals": [
+        [
+          "仙",
+          45
+        ]
+      ],
+      "zone_minutes": [
+        45
+      ],
+      "after_count": 2,
+      "after_minutes": [
+        86,
+        90
+      ],
+      "under15_win": false
+    },
+    {
+      "name": "仙台 vs 栃木C",
+      "round": "R11",
+      "league": "EAST-A",
+      "score": "5-0",
+      "all_goals": [
+        [
+          "仙",
+          26
+        ],
+        [
+          "仙",
+          45
+        ],
+        [
+          "仙",
+          56
+        ],
+        [
+          "仙",
+          67
+        ],
+        [
+          "仙",
+          89
+        ]
+      ],
+      "zone_goals": [
+        [
+          "仙",
+          45
+        ]
+      ],
+      "zone_minutes": [
+        45
+      ],
+      "after_count": 3,
+      "after_minutes": [
+        56,
+        67,
+        89
+      ],
+      "under15_win": false
+    },
+    {
+      "name": "秋田 vs 横浜FC",
+      "round": "R11",
+      "league": "EAST-A",
+      "score": "1-3",
+      "all_goals": [
+        [
+          "横",
+          21
+        ],
+        [
+          "横",
+          28
+        ],
+        [
+          "秋",
+          49
+        ],
+        [
+          "横",
+          87
+        ]
+      ],
+      "zone_goals": [
+        [
+          "秋",
+          49
+        ]
+      ],
+      "zone_minutes": [
+        49
+      ],
+      "after_count": 1,
+      "after_minutes": [
+        87
+      ],
+      "under15_win": true
+    },
+    {
+      "name": "栃木SC vs 相模原",
+      "round": "R11",
+      "league": "EAST-A",
+      "score": "0-2",
+      "all_goals": [
+        [
+          "相",
+          7
+        ],
+        [
+          "相",
+          45
+        ]
+      ],
+      "zone_goals": [
+        [
+          "相",
+          45
+        ]
+      ],
+      "zone_minutes": [
+        45
+      ],
+      "after_count": 0,
+      "after_minutes": [],
+      "under15_win": true
+    },
+    {
+      "name": "栃木C vs 栃木SC",
+      "round": "R12",
+      "league": "EAST-A",
+      "score": "2-1",
+      "all_goals": [
+        [
+          "S",
+          54
+        ],
+        [
+          "C",
+          65
+        ],
+        [
+          "C",
+          90
+        ]
+      ],
+      "zone_goals": [
+        [
+          "S",
+          54
+        ]
+      ],
+      "zone_minutes": [
+        54
+      ],
+      "after_count": 2,
+      "after_minutes": [
+        65,
+        90
+      ],
+      "under15_win": false
+    },
+    {
+      "name": "群馬 vs 横浜FC",
+      "round": "R12",
+      "league": "EAST-A",
+      "score": "3-1",
+      "all_goals": [
+        [
+          "群",
+          10
+        ],
+        [
+          "群",
+          42
+        ],
+        [
+          "横",
+          45
+        ],
+        [
+          "群",
+          74
+        ]
+      ],
+      "zone_goals": [
+        [
+          "横",
+          45
+        ]
+      ],
+      "zone_minutes": [
+        45
+      ],
+      "after_count": 1,
+      "after_minutes": [
+        74
+      ],
+      "under15_win": true
+    },
+    {
+      "name": "相模原 vs 湘南",
+      "round": "R12",
+      "league": "EAST-A",
+      "score": "1-1",
+      "all_goals": [
+        [
+          "相",
+          2
+        ],
+        [
+          "湘",
+          53
+        ]
+      ],
+      "zone_goals": [
+        [
+          "湘",
+          53
+        ]
+      ],
+      "zone_minutes": [
+        53
+      ],
+      "after_count": 0,
+      "after_minutes": [],
+      "under15_win": true
+    },
+    {
+      "name": "湘南 vs 栃木C",
+      "round": "R13",
+      "league": "EAST-A",
+      "score": "1-2",
+      "all_goals": [
+        [
+          "湘",
+          2
+        ],
+        [
+          "栃",
+          14
+        ],
+        [
+          "栃",
+          45
+        ]
+      ],
+      "zone_goals": [
+        [
+          "栃",
+          45
+        ]
+      ],
+      "zone_minutes": [
+        45
+      ],
+      "after_count": 0,
+      "after_minutes": [],
+      "under15_win": true
+    },
+    {
+      "name": "八戸 vs 群馬",
+      "round": "R13",
+      "league": "EAST-A",
+      "score": "0-1",
+      "all_goals": [
+        [
+          "群",
+          51
+        ]
+      ],
+      "zone_goals": [
+        [
+          "群",
+          51
+        ]
+      ],
+      "zone_minutes": [
+        51
+      ],
+      "after_count": 0,
+      "after_minutes": [],
+      "under15_win": true
+    },
+    {
+      "name": "山形 vs 栃木SC",
+      "round": "R13",
+      "league": "EAST-A",
+      "score": "2-2",
+      "all_goals": [
+        [
+          "栃",
+          30
+        ],
+        [
+          "山",
+          38
+        ],
+        [
+          "山",
+          55
+        ],
+        [
+          "栃",
+          58
+        ]
+      ],
+      "zone_goals": [
+        [
+          "山",
+          55
+        ]
+      ],
+      "zone_minutes": [
+        55
+      ],
+      "after_count": 1,
+      "after_minutes": [
+        58
+      ],
+      "under15_win": true
+    },
+    {
+      "name": "八戸 vs 仙台",
+      "round": "R14",
+      "league": "EAST-A",
+      "score": "1-1",
+      "all_goals": [
+        [
+          "八",
+          18
+        ],
+        [
+          "仙",
+          53
+        ]
+      ],
+      "zone_goals": [
+        [
+          "仙",
+          53
+        ]
+      ],
+      "zone_minutes": [
+        53
+      ],
+      "after_count": 0,
+      "after_minutes": [],
+      "under15_win": true
+    }
+  ]
+}
